@@ -1,0 +1,35 @@
+import { Module } from '@nestjs/common';
+import { MongooseModule } from '@nestjs/mongoose';
+import { ConfigModule } from '@nestjs/config';
+import { APP_FILTER, APP_INTERCEPTOR } from '@nestjs/core';
+import { UserModule } from './modules/user/user.module';
+import { AuthModule } from './modules/auth/auth.module';
+import { AllExceptionFilter } from './common/exceptions';
+import { TransformInterceptor } from './common/interceptors/transform.interceptor';
+import { mongooseConfig } from './config/mongoose.config';
+import configurations from './config';
+
+@Module({
+  imports: [
+    ConfigModule.forRoot({
+      envFilePath: `${process.cwd()}/.env.${process.env.NODE_ENV}`,
+      isGlobal: true,
+      load: configurations,
+    }),
+    MongooseModule.forRootAsync(mongooseConfig),
+    UserModule,
+    AuthModule,
+  ],
+  providers: [
+    {
+      provide: APP_FILTER,
+      useClass: AllExceptionFilter,
+    },
+    {
+      provide: APP_INTERCEPTOR,
+      useClass: TransformInterceptor,
+    },
+  ],
+})
+export class AppModule {
+}
