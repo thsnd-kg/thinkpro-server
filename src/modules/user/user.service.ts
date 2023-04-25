@@ -30,6 +30,8 @@ export class UserService {
   async findOneByUsername(username: string): Promise<User | null> {
     const user = await this.userModel.findOne({
       username,
+    }, {
+      password: true,
     });
 
     return user;

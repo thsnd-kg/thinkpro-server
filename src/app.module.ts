@@ -7,6 +7,7 @@ import { AuthModule } from './modules/auth/auth.module';
 import { AllExceptionFilter } from './common/exceptions';
 import { TransformInterceptor } from './common/interceptors/transform.interceptor';
 import { mongooseConfig } from './config/mongoose.config';
+import { CategoryModule } from './modules/category/category.module';
 import configurations from './config';
 
 @Module({
@@ -19,6 +20,7 @@ import configurations from './config';
     MongooseModule.forRootAsync(mongooseConfig),
     UserModule,
     AuthModule,
+    CategoryModule,
   ],
   providers: [
     {
