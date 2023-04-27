@@ -1,0 +1,202 @@
+[
+  {
+    "id": 65,
+    "name": "Akko",
+    "icon": "media\/core\/brands\/2023\/3\/31\/logo-akko-thinkpro-01.png",
+    "shared_url": "ban-phim-akko",
+    "slug": "akko",
+    "is_verify": 1,
+    "description": "AKKO l\u00e0 th\u01b0\u01a1ng hi\u1ec7u \u0111\u00ecnh \u0111\u00e1m n\u1ed5i l\u00ean t\u1ea1i Trung Qu\u1ed1c, \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf v\u00e0 ph\u00e1t tri\u1ec3n \u0111\u1ec3 ph\u1ee5c v\u1ee5 c\u1ed9ng \u0111\u1ed3ng c\u1ed9ng \u0111\u1ed3ng game th\u1ee7 v\u00e0 ng\u01b0\u1eddi d\u00f9ng b\u00e0n ph\u00edm c\u01a1 chuy\u00ean nghi\u1ec7p. \u01afu \u0111i\u1ec3m c\u1ee7a b\u00e0n ph\u00edm c\u01a1 AKKO l\u00e0 thi\u1ebft k\u1ebf th\u1eddi trang, tr\u1ebb trung v\u00e0 r\u1ea5t \u0111a d\u1ea1ng v\u1ec1 m\u00e0u s\u1eafc.",
+    "sub_brands": []
+  },
+  {
+    "id": 79,
+    "name": "Keydous",
+    "icon": "media\/core\/brands\/2023\/3\/17\/logo-keydous-thinkpro-03.png",
+    "shared_url": "ban-phim-keydous",
+    "slug": "keydous",
+    "is_verify": 0,
+    "description": "Nh\u1eafc \u0111\u1ebfn Keydous th\u00ec th\u01b0\u1eddng m\u1ecdi ng\u01b0\u1eddi \u0111\u1ec1u bi\u1ebft t\u1edbi \u0111\u00e2y l\u00e0 m\u1ed9t th\u01b0\u01a1ng hi\u1ec7u b\u00e0n ph\u00edm n\u1ed1i l\u00ean v\u1edbi nh\u1eefng \u01b0u \u0111i\u1ec3m nh\u01b0 \u0111\u01b0\u1ee3c pre-build kh\u00e1 k\u1ef9 c\u00e0ng. N\u00f3 l\u00e0 t\u1ed5ng h\u00f2a c\u1ee7a r\u1ea5t nhi\u1ec1u y\u1ebfu t\u1ed1, t\u1eeb keycap, switch, foam,...",
+    "sub_brands": []
+  },
+  {
+    "id": 4,
+    "name": "Lenovo",
+    "icon": "media\/core\/brands\/2023\/3\/17\/logo-lenovo-thinkpro-01.png",
+    "shared_url": "ban-phim-lenovo",
+    "slug": "lenovo",
+    "is_verify": 1,
+    "description": "S\u1edf h\u1eefu thi\u1ebft k\u1ebf thanh l\u1ecbch, t\u1ed1i gi\u1ea3n c\u00f9ng ki\u1ec3u d\u00e1ng \u0111\u01a1n gi\u1ea3n m\u00e0 hi\u1ec7n \u0111\u1ea1i, laptop Lenovo lu\u00f4n \u0111\u1ea3m b\u1ea3o \u0111\u01b0\u1ee3c s\u1ef1 c\u1ee9ng c\u00e1p, trau chu\u1ed1t tr\u00ean t\u1eebng \u0111\u01b0\u1eddng n\u00e9t. \u0110i k\u00e8m v\u1edbi \u0111\u00f3 l\u00e0 t\u1ed5 h\u1ee3p c\u1ea5u h\u00ecnh m\u1ea1nh m\u1ebd, trang b\u1ecb b\u1ed9 vi x\u1eed l\u00fd t\u00e2n ti\u1ebfn, th\u1eddi l\u01b0\u1ee3ng pin \u1ea5n t\u01b0\u1ee3ng mang \u0111\u1ebfn cho ng\u01b0\u1eddi d\u00f9ng s\u1ef1 linh ho\u1ea1t v\u1ec1 thi\u1ebft k\u1ebf v\u00e0 m\u01b0\u1ee3t m\u00e0 v\u1ec1 hi\u1ec7u n\u0103ng",
+    "sub_brands": []
+  },
+  {
+    "id": 41,
+    "name": "Newmen",
+    "icon": "media\/core\/brands\/2023\/3\/17\/logo-newmen-thinkpro-01.png",
+    "shared_url": "ban-phim-newmen",
+    "slug": "newmen",
+    "is_verify": 0,
+    "description": "Newmen l\u00e0 th\u01b0\u01a1ng hi\u1ec7u c\u00f3 tr\u1ee5 s\u1edf \u0111\u1eb7t t\u1ea1i Trung Qu\u1ed1c. C\u00e1c m\u1eabu s\u1ea3n ph\u1ea9m \u0111\u1ebfn t\u1eeb th\u01b0\u01a1ng hi\u1ec7u n\u00e0y th\u01b0\u1eddng c\u00f3 thi\u1ebft k\u1ebf \u0111\u1ed9c \u0111\u00e1o v\u00e0 hi\u1ec7n \u0111\u1ea1i, tr\u1ea3i nghi\u1ec7m g\u00f5 ph\u00edm \u1ea5n t\u01b0\u1ee3ng ph\u00f9 h\u1ee3p v\u1edbi \u0111a d\u1ea1ng s\u1edf th\u00edch c\u1ee7a ng\u01b0\u1eddi d\u00f9ng.",
+    "sub_brands": []
+  },
+  {
+    "id": 409,
+    "name": "James Donkey",
+    "icon": "media\/core\/brands\/2023\/3\/31\/logo-James-Donkey-thinkpro-01.png",
+    "shared_url": "ban-phim-james-donkey",
+    "slug": "james-donkey",
+    "is_verify": 0,
+    "description": "JAMESDONKEY l\u00e0 nh\u00e0 s\u1ea3n xu\u1ea5t chuy\u00ean nghi\u1ec7p t\u1eadp trung v\u00e0o c\u00e1c s\u1ea3n ph\u1ea9m ngo\u1ea1i vi m\u00e1y t\u00ednh, bao g\u1ed3m b\u00e0n ph\u00edm, chu\u1ed9t, tai nghe. K\u1ec3 t\u1eeb khi \u0111\u01b0\u1ee3c th\u00e0nh l\u1eadp v\u00e0o ng\u00e0y 14 th\u00e1ng 2 n\u0103m 2014 t\u1ea1i Th\u00e2m Quy\u1ebfn Trung Qu\u1ed1c, ch\u00fang t\u00f4i k\u1ebft h\u1ee3p c\u00f4ng ngh\u1ec7 m\u1edbi nh\u1ea5t v\u1edbi ki\u1ec3u d\u00e1ng \u0111\u1eb9p, ti\u1ec7n d\u1ee5ng.",
+    "sub_brands": []
+  },
+  {
+    "id": 165,
+    "name": "Zuoya",
+    "icon": "media\/core\/brands\/2023\/3\/31\/logo-Zuoya-thinkpro-01.png",
+    "shared_url": "ban-phim-zuoya",
+    "slug": "zuoya",
+    "is_verify": 1,
+    "description": "Zuoya l\u00e0 m\u1ed9t th\u01b0\u01a1ng hi\u1ec7u b\u00e0n ph\u00edm c\u01a1 \u0111\u01b0\u1ee3c s\u1ea3n xu\u1ea5t t\u1ea1i Trung Qu\u1ed1c. B\u00e0n ph\u00edm n\u00e0y \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf \u0111\u1ec3 ph\u1ee5c v\u1ee5 cho nhu c\u1ea7u ch\u01a1i game v\u00e0 c\u00f4ng vi\u1ec7c v\u0103n ph\u00f2ng. N\u00f3 \u0111\u01b0\u1ee3c t\u00edch h\u1ee3p nhi\u1ec1u t\u00ednh n\u0103ng v\u00e0 t\u00f9y ch\u1ecdn, nh\u01b0 c\u00e1c ph\u00edm macro \u0111\u01b0\u1ee3c t\u00f9y ch\u1ec9nh, nhi\u1ec1u ch\u1ebf \u0111\u1ed9 \u0111\u00e8n LED c\u1ef1c s\u00e1ng v\u00e0 t\u1ed1c \u0111\u1ed9 \u0111\u00e1p \u1ee9ng cao.",
+    "sub_brands": []
+  },
+  {
+    "id": 91,
+    "name": "HyperWork",
+    "icon": "media\/core\/brands\/2022\/1\/18\/Logo-HyperWork-black.png",
+    "shared_url": "ban-phim-hyperwork",
+    "slug": "hyperwork",
+    "is_verify": 1,
+    "description": "HyperWork l\u00e0 th\u01b0\u01a1ng hi\u1ec7u ra \u0111\u1eddi t\u1eeb n\u0103m 2021 v\u1edbi 6 d\u1ea3i ph\u1ea9m ch\u00ednh bao g\u1ed3m: Gi\u00e1 \u0111\u1ee1 m\u00e0n h\u00ecnh, Gi\u00e1 \u0111\u1ee1 \u0111i\u1ec7n tho\u1ea1i\/m\u00e1y t\u00ednh b\u1ea3ng\/Laptop, gh\u1ebf c\u00f4ng th\u00e1i h\u1ecdc, B\u00e0n ph\u00edm & Chu\u1ed9t, S\u1ea1c d\u1ef1 ph\u00f2ng\/C\u00e1p s\u1ea1c, \u0111\u1ed3 trang tr\u00ed b\u1eb1ng g\u1ed7.",
+    "sub_brands": []
+  },
+  {
+    "id": 83,
+    "name": "Mistel",
+    "icon": "media\/core\/brands\/2023\/3\/17\/logo-mistel-thinkpro-02.png",
+    "shared_url": "ban-phim-mistel",
+    "slug": "mistel",
+    "is_verify": 1,
+    "description": "Mistel l\u00e0 m\u1ed9t th\u01b0\u01a1ng hi\u1ec7u b\u00e0n ph\u00edm chuy\u00ean v\u1ec1 b\u00e0n ph\u00edm c\u01a1 v\u00e0 b\u00e0n ph\u00edm kh\u00f4ng d\u00e2y. C\u00f4ng ty \u0111\u01b0\u1ee3c th\u00e0nh l\u1eadp t\u1ea1i \u0110\u00e0i Loan v\u00e0o n\u0103m 2008. B\u00e0n ph\u00edm Mistel \u0111\u01b0\u1ee3c \u0111\u00e1nh gi\u00e1 l\u00e0 m\u1ed9t trong nh\u1eefng th\u01b0\u01a1ng hi\u1ec7u b\u00e0n ph\u00edm ch\u1ea5t l\u01b0\u1ee3ng t\u1ed1t v\u1edbi thi\u1ebft k\u1ebf \u0111\u1ed9c \u0111\u00e1o v\u00e0 c\u00e1c t\u00ednh n\u0103ng cao c\u1ea5p, ph\u00f9 h\u1ee3p cho c\u00e1c game th\u1ee7 v\u00e0 nh\u1eefng ng\u01b0\u1eddi d\u00f9ng y\u00eau th\u00edch b\u00e0n",
+    "sub_brands": []
+  },
+  {
+    "id": 14,
+    "name": "Logitech",
+    "icon": "media\/core\/brands\/2023\/3\/17\/logo-logitech-thinkpro-01.png",
+    "shared_url": "ban-phim-logitech",
+    "slug": "logitech",
+    "is_verify": 0,
+    "description": "Logitech l\u00e0 th\u01b0\u01a1ng hi\u1ec7u n\u1ed5i ti\u1ebfng c\u1ee7a Th\u1ee5y S\u0129. Chu\u1ed9t v\u00e0 b\u00e0n ph\u00edm m\u00e1y t\u00ednh l\u00e0 hai s\u1ea3n ph\u1ea9m t\u1ea1o n\u00ean \"ch\u1ed7 \u0111\u1ee9ng'' v\u1eefng v\u00e0ng trong ng\u00e0nh ph\u1ee5 ki\u1ec7n m\u00e1y t\u00ednh c\u1ee7a Logitech. Nh\u1eefng \u0111i\u1ec3m \u0111\u1eb7c bi\u1ec7t c\u1ee7a b\u00e0n ph\u00edm Logitech l\u00e0 kh\u1ea3 n\u0103ng kh\u00e1ng n\u01b0\u1edbc, thi\u1ebft k\u1ebf t\u1ed1i gi\u1ea3n, t\u1ed5 h\u1ee3p ph\u00edm \u0111a ch\u1ee9c n\u0103ng.",
+    "sub_brands": []
+  },
+  {
+    "id": 5,
+    "name": "Microsoft",
+    "icon": "backend\/uploads\/brand\/icon\/2020\/8\/7\/microsoft.png",
+    "shared_url": "ban-phim-microsoft",
+    "slug": "microsoft",
+    "is_verify": 0,
+    "description": "Microsoft l\u00e0 m\u1ed9t s\u1ea3n ph\u1ea9m \u0111\u1ebfn t\u1eeb t\u1eadp \u0111o\u00e0n \u0111a qu\u1ed1c gia Microsoft c\u1ee7a Hoa K\u1ef3. \u0110a ph\u1ea7n c\u00e1c m\u1eabu s\u1ea3n ph\u1ea9m \u0111\u1ebfn t\u1eeb nh\u00e0 Microsoft c\u00f3 ki\u1ec3u d\u00e1ng \u0111\u01a1n gi\u1ea3n nh\u01b0ng v\u1eabn gi\u1eef \u0111\u01b0\u1ee3c n\u00e9t thanh l\u1ecbch v\u00e0 \u0111\u01b0\u1ee3c trang b\u1ecb \u0111\u1ea7y \u0111\u1ee7 c\u00e1c t\u00ednh n\u0103ng c\u01a1 b\u1ea3n.",
+    "sub_brands": []
+  },
+  {
+    "id": 47,
+    "name": "Keychron",
+    "icon": "media\/core\/brands\/2023\/3\/17\/logo-keychron-thinkpro-01.png",
+    "shared_url": "ban-phim-keychron",
+    "slug": "keychron",
+    "is_verify": 0,
+    "description": "Keychron l\u00e0 m\u1ed9t l\u00e0 m\u1ed9t th\u01b0\u01a1ng hi\u1ec7u b\u00e0n ph\u00edm \u0111\u1ebfn t\u1eeb H\u1ed3ng K\u00f4ng. B\u00e0n ph\u00edm c\u01a1 c\u1ee7a Keychron mang thi\u1ebft k\u1ebf \u0111\u01a1n gi\u1ea3n, d\u1ec5 d\u00f9ng, kh\u00f4ng ch\u1ec9 h\u01b0\u1edbng t\u1edbi ng\u01b0\u1eddi d\u00f9ng Windows m\u00e0 c\u00f2n r\u1ea5t t\u1ed1i \u01b0u cho ng\u01b0\u1eddi d\u00f9ng macOS.",
+    "sub_brands": []
+  },
+  {
+    "id": 84,
+    "name": "FL-ESPORT",
+    "icon": "backend\/uploads\/brand\/icon\/2021\/11\/12\/618e204718133_1636704327.png",
+    "shared_url": "ban-phim-fl-esport",
+    "slug": "fl-esport",
+    "is_verify": 1,
+    "description": "FL-Esport l\u00e0 th\u01b0\u01a1ng hi\u1ec7u \u0111\u1ebfn t\u1eeb Trung Qu\u1ed1c \u0111\u01b0\u1ee3c th\u00e0nh l\u1eadp v\u00e0o n\u0103m 2004. FL-Esport l\u00e0 lo\u1ea1i b\u00e0n ph\u00edm c\u01a1 d\u00e0nh cho game th\u1ee7, c\u00f3 thi\u1ebft k\u1ebf \u0111\u1ed9c \u0111\u00e1o, c\u00e1c t\u00ednh n\u0103ng chuy\u00ean d\u1ee5ng cho game, nh\u01b0 n-key rollover, macro keys v\u00e0 c\u00e1c switch c\u01a1 kh\u00e1c nhau,...",
+    "sub_brands": []
+  },
+  {
+    "id": 92,
+    "name": "IQUNIX",
+    "icon": "media\/core\/brands\/2023\/3\/31\/logo-IQUNIX-thinkpro-01.png",
+    "shared_url": "ban-phim-iqunix",
+    "slug": "iqunix",
+    "is_verify": 1,
+    "description": "IQUNIX l\u00e0 th\u01b0\u01a1ng hi\u1ec7u kh\u00e1 tr\u1ebb \u1edf th\u1ecb tr\u01b0\u1eddng Vi\u1ec7t Nam khi ch\u1ec9 m\u1edbi xu\u1ea5t hi\u1ec7n t\u1eeb n\u0103m 2014. S\u1ea3n ph\u1ea9m ch\u1ee7 l\u1ef1c ch\u1ee7 l\u1ef1c c\u1ee7a IQUNIX l\u00e0 b\u00e0n ph\u00edm c\u01a1 v\u00e0 t\u1eadp trung v\u00e0o ph\u00e2n kh\u00fac t\u1ea7m cao t\u1eeb 3 tri\u1ec7u tr\u1edf l\u00ean. Ph\u00edm c\u01a1 IQUNIX c\u00f3 thi\u1ebft k\u1ebf \u0111\u1ed9c \u0111\u00e1o, \u0111\u1ecbnh h\u00ecnh phong c\u00e1ch cho ng\u01b0\u1eddi d\u00f9ng.",
+    "sub_brands": []
+  },
+  {
+    "id": 86,
+    "name": "Leopold",
+    "icon": "backend\/uploads\/brand\/icon\/2021\/11\/18\/6195d6e8ef02b_1637209832.png",
+    "shared_url": "ban-phim-leopold",
+    "slug": "leopold",
+    "is_verify": 1,
+    "description": "Leopold l\u00e0 m\u1ed9t th\u01b0\u01a1ng hi\u1ec7u b\u00e0n ph\u00edm c\u01a1 r\u1ea5t n\u1ed5i ti\u1ebfng kh\u00f4ng ch\u1ec9 \u1edf th\u1ecb tr\u01b0\u1eddng H\u00e0n Qu\u1ed1c m\u00e0 c\u0169ng r\u1ea5t th\u1ecbnh h\u00e0nh \u1edf Vi\u1ec7t Nam. S\u1ea3n ph\u1ea9m b\u00e0n ph\u00edm c\u01a1 c\u1ee7a h\u00e3ng n\u00e0y kh\u00e1 \u0111\u01b0\u1ee3c \u01b0a chu\u1ed9ng b\u1edfi v\u1ebb t\u01b0\u01a1i m\u1edbi, tr\u1ebb trung v\u00e0 n\u0103ng \u0111\u1ed9ng. Ngo\u00e0i ra n\u00f3 c\u00f2n s\u1edf h\u1eefu nh\u1eefng t\u00ednh n\u0103ng, c\u00f4ng d\u1ee5ng v\u00f4 c\u00f9ng \u201chay ho\u201d.",
+    "sub_brands": []
+  },
+  {
+    "id": 11,
+    "name": "Acer",
+    "icon": "backend\/uploads\/brand\/icon\/2020\/8\/7\/acer.png",
+    "shared_url": "ban-phim-acer",
+    "slug": "acer",
+    "is_verify": 0,
+    "description": "Acer l\u00e0 th\u01b0\u01a1ng hi\u1ec7u c\u00f4ng ngh\u1ec7 n\u1ed5i ti\u1ebfng c\u1ee7a \u0110\u00e0i Loan \u0111\u01b0\u1ee3c nhi\u1ec1u ng\u01b0\u1eddi tin d\u00f9ng b\u1edfi nh\u1eefng c\u00f4ng ngh\u1ec7 th\u00f4ng minh. Acer \u0111\u00e3 ti\u1ebfp c\u1eadn th\u1ecb tr\u01b0\u1eddng Vi\u1ec7t Nam v\u1edbi s\u1ea3n ph\u1ea9m m\u00e1y t\u00ednh c\u00e1 nh\u00e2n v\u00e0o n\u0103m 1996. B\u00ean c\u1ea1nh s\u1ea3n ph\u1ea9m m\u00e1y t\u00ednh x\u00e1ch tay,  Acer c\u00f2n s\u1ea3n xu\u1ea5t \u0111\u1ed3ng h\u1ed3 th\u00f4ng minh, m\u00e1y t\u00ednh b\u1ea3ng, m\u00e0n h\u00ecnh v\u00e0 b\u00e0n ph\u00edm,...",
+    "sub_brands": []
+  },
+  {
+    "id": 137,
+    "name": "GLORIUS",
+    "icon": "media\/core\/brands\/2022\/7\/26\/Glorius logo.png",
+    "shared_url": "ban-phim-glorius",
+    "slug": "glorius",
+    "is_verify": 1,
+    "description": "B\u00e0n ph\u00edm Glorious l\u00e0 m\u1ed9t th\u01b0\u01a1ng hi\u1ec7u b\u00e0n ph\u00edm c\u01a1 chuy\u00ean d\u1ee5ng t\u1eeb n\u01b0\u1edbc M\u1ef9. B\u00e0n ph\u00edm GLORIUS \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf \u0111\u1ec3 \u0111\u00e1p \u1ee9ng nhu c\u1ea7u c\u1ee7a c\u00e1c game th\u1ee7 chuy\u00ean nghi\u1ec7p, v\u1edbi c\u00e1c t\u00ednh n\u0103ng nh\u01b0 \u0111\u1ed9 ph\u1ea3n h\u1ed3i nhanh, \u0111\u1ed9 b\u1ec1n cao, ki\u1ec3u d\u00e1ng \u0111\u1eb9p v\u00e0 nhi\u1ec1u c\u1ea3i ti\u1ebfn th\u00f4ng minh kh\u00e1c.",
+    "sub_brands": []
+  },
+  {
+    "id": 157,
+    "name": "Monsgeek",
+    "icon": "media\/core\/brands\/2022\/12\/8\/\u9b54\u6781\u5ba2LOGO-11.png",
+    "shared_url": "ban-phim-monsgeek",
+    "slug": "monsgeek",
+    "is_verify": 0,
+    "description": "Monsgeek l\u00e0 m\u1ed9t th\u01b0\u01a1ng hi\u1ec7u con c\u1ee7a AKKO. C\u00e1c s\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c bi\u1ebft \u0111\u1ebfn v\u1edbi thi\u1ebft k\u1ebf ch\u1eafc ch\u1eafn v\u00e0 c\u00e1c t\u00ednh n\u0103ng t\u1ed1t, ph\u00f9 h\u1ee3p v\u1edbi nh\u1eefng ng\u01b0\u1eddi y\u00eau th\u00edch c\u00f4ng ngh\u1ec7 v\u00e0 mu\u1ed1n s\u1edf h\u1eefu m\u1ed9t s\u1ea3n ph\u1ea9m b\u00e0n ph\u00edm c\u01a1 cao c\u1ea5p.",
+    "sub_brands": []
+  },
+  {
+    "id": 8,
+    "name": "Asus",
+    "icon": "backend\/uploads\/brand\/icon\/2020\/8\/7\/asus.png",
+    "shared_url": "ban-phim-asus",
+    "slug": "asus",
+    "is_verify": 1,
+    "description": "ASUS lu\u00f4n l\u00e0 th\u01b0\u01a1ng hi\u1ec7u \u0111\u01b0\u1ee3c \u0111\u00e1nh gi\u00e1 cao v\u1ec1 m\u1ecdi m\u1eb7t. T\u1eebng d\u00f2ng s\u1ea3n ph\u1ea9m c\u1ee7a h\u00e3ng \u0111\u1ec1u s\u1edf h\u1eefu thi\u1ebft k\u1ebf ph\u00f9 h\u1ee3p v\u1edbi ng\u01b0\u1eddi d\u00f9ng m\u1ee5c ti\u00eau, \u0111i k\u00e8m v\u1edbi hi\u1ec7u n\u0103ng t\u1ed1t, \u0111\u1ed9 ho\u00e0n thi\u1ec7n x\u1ee9ng t\u1ea7m ti\u1ec1n v\u00e0 nhi\u1ec1u t\u00ednh n\u0103ng d\u1eabn \u0111\u1ea7u xu th\u1ebf, th\u1ecfa m\u00e3n t\u00ednh t\u00f2 m\u00f2 v\u00e0 \u01b0a s\u1ef1 m\u1edbi m\u1ebb c\u1ee7a ng\u01b0\u1eddi d\u00f9ng hi\u1ec7n \u0111\u1ea1i.",
+    "sub_brands": []
+  },
+  {
+    "id": 167,
+    "name": "IKBC",
+    "icon": "media\/core\/brands\/2023\/2\/6\/IKBC LOGO-01.jpg",
+    "shared_url": "ban-phim-ikbc",
+    "slug": "ikbc",
+    "is_verify": 1,
+    "description": "KBC l\u00e0 th\u01b0\u01a1ng hi\u1ec7u s\u1ea3n xu\u1ea5t gaming gear t\u1eeb Trung Qu\u1ed1c \u0111\u01b0\u1ee3c th\u00e0nh l\u1eadp n\u0103m 2007. N\u00f3 \u0111\u01b0\u1ee3c bi\u1ebft \u0111\u1ebfn l\u00e0 h\u00e3ng chuy\u00ean s\u1ea3n xu\u1ea5t keycap PBT. Ch\u00ednh v\u00ec v\u1eady m\u00e0 nh\u1eefng chi\u1ebfc b\u00e0n ph\u00edm sau n\u00e0y t\u1eeb iKBC \u0111\u1ec1u s\u1edf h\u1eefu ch\u1ea5t l\u01b0\u1ee3ng keycaps v\u00f4 c\u00f9ng ch\u1ea5t l\u01b0\u1ee3ng, t\u1ea1o n\u00ean d\u1ea5u \u1ea5n ri\u00eang c\u1ee7a h\u00e0ng \u0111\u1ebfn v\u1edbi ng\u01b0\u1eddi ti\u00eau d\u00f9ng.",
+    "sub_brands": []
+  },
+  {
+    "id": 1,
+    "name": "Dell",
+    "icon": "backend\/uploads\/brand\/icon\/2020\/8\/7\/dell.png",
+    "shared_url": "ban-phim-dell",
+    "slug": "dell",
+    "is_verify": 1,
+    "description": "Dell l\u00e0 th\u01b0\u01a1ng hi\u1ec7u n\u1ed5i ti\u1ebfng khi s\u1edf h\u1eefu nhi\u1ec1u s\u1ea3n ph\u1ea9m laptop, ph\u1ee5 ki\u1ec7n, PC ch\u1ea5t l\u01b0\u1ee3ng cao v\u1edbi m\u1ee9c gi\u00e1 r\u1ea5t ph\u1ea3i ch\u0103ng. C\u00e1c d\u00f2ng laptop n\u1ed5i b\u1eadt v\u00e0 \u0111\u01b0\u1ee3c \u01b0a chu\u1ed9ng nh\u01b0 Dell XPS, Dell Inspiron, Dell Vostro, Dell Latitude, Dell Alienware, Dell Gaming tr\u1ea3i d\u00e0i t\u1edbi nhi\u1ec1u ph\u00e2n kh\u00fac kh\u00e1c nhau, d\u1ec5 d\u00e0ng l\u1ef1a ch\u1ecdn v\u00e0 s\u1eed d\u1ee5ng",
+    "sub_brands": []
+  }
+]
