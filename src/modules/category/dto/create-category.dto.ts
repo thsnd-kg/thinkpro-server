@@ -2,6 +2,7 @@ import { Prop } from '@nestjs/mongoose';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsOptional, IsString } from 'class-validator';
 import { IsLowerCaseKebabCase } from '../../../validations/is-lower-kebab-case.validation';
+import { Expose } from 'class-transformer';
 
 export class CreateCategoryDto {
 
