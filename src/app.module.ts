@@ -9,11 +9,13 @@ import { TransformInterceptor } from './common/interceptors/transform.intercepto
 import { mongooseConfig } from './config/mongoose.config';
 import { CategoryModule } from './modules/category/category.module';
 import configurations from './config';
+import { SeedModule } from './shared/seed.module';
+import { BrandModule } from './modules/brand/brand.module';
 
 @Module({
   imports: [
     ConfigModule.forRoot({
-      envFilePath: `${process.cwd()}/.env.${process.env.NODE_ENV}`,
+      envFilePath: process.env.NODE_ENV ? `${process.cwd()}/.env.${process.env.NODE_ENV}` : '.env',
       isGlobal: true,
       load: configurations,
     }),
@@ -21,6 +23,8 @@ import configurations from './config';
     UserModule,
     AuthModule,
     CategoryModule,
+    SeedModule,
+    BrandModule,
   ],
   providers: [
     {
