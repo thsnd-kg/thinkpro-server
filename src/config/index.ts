@@ -1,5 +1,5 @@
-import DbConfig from './db.config';
-import AuthConfig from './auth.config';
-import AppConfig from './app.config';
+import { MongoConfig } from './mongo.config';
+import { JwtConfig } from './jwt.config';
+import { AppConfig } from './app.config';
 
-export default [DbConfig, AuthConfig, AppConfig];
+export default [MongoConfig, JwtConfig, AppConfig];

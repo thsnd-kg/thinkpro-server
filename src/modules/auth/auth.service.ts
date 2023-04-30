@@ -1,23 +1,24 @@
-import { BadRequestException, ForbiddenException, Injectable } from '@nestjs/common';
+import { BadRequestException, ForbiddenException, Inject, Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcrypt';
-import { ConfigService } from '@nestjs/config';
-import ms from 'ms';
+import { ConfigType } from '@nestjs/config';
 import { JWT_REFRESH_TOKEN_COOKIE_KEY } from '../../common/constants';
 import { UserService } from '../user/user.service';
-import { LoginResponse, RegisterDto, LoginDto } from './dto';
+import { LoginDto, LoginResponse, RegisterDto } from './dto';
 
 import { JwtPayload } from './interface/jwt-payload.interface';
-import { configAuth } from '../../config/constants';
+import { JwtConfig } from '../../config/jwt.config';
 
 @Injectable()
 export class AuthService {
   constructor(
+    @Inject(JwtConfig.KEY)
+    private readonly jwtConfig: ConfigType<typeof JwtConfig>,
     private userService: UserService,
     private jwtService: JwtService,
-    private configService: ConfigService,
   ) {
   }
+
 
   async validateByUsernameAndPassword(username: string, pass: string): Promise<any> {
     const user = await this.userService.findOneByUsername(username);
@@ -49,9 +50,7 @@ export class AuthService {
 
   async getCookieRefreshToken(username: string): Promise<string> {
     const token = await this.signRefreshToken(username);
-
-    const jwtConfig = this.configService.get(configAuth);
-    const expiredIn = jwtConfig.refreshTokenLifeTime;
+    const expiredIn = this.jwtConfig.refreshTokenLifeTime;
 
     return `${JWT_REFRESH_TOKEN_COOKIE_KEY}=${token}; HttpOnly; Path=/; Max-Age=${expiredIn}`;
   }
@@ -70,9 +69,7 @@ export class AuthService {
       sub: username,
       email,
     };
-
-    const jwtConfig = this.configService.get(configAuth);
-    const expiredIn = jwtConfig.accessTokenLifeTime;
+    const expiredIn = this.jwtConfig.accessTokenLifeTime;
 
     return await this.jwtService.signAsync(payload, { expiresIn: expiredIn });
   }
