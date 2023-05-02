@@ -25,6 +25,7 @@ import { BrandModule } from './modules/brand/brand.module';
     CategoryModule,
     SeedModule,
     BrandModule,
+
   ],
   providers: [
     {

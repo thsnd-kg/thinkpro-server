@@ -1,0 +1,37 @@
+version: '3.9'
+services:
+  server:
+    container_name: nestjs_server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - "3000:3000"
+    env_file:
+      - .env
+    networks:
+      - mongo-compose-network
+    depends_on:
+      - mongodb
+
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:${MONGODB_VERSION}
+    ports:
+      - "27017:27017"
+    networks:
+      - mongo-compose-network
+    volumes:
+      - mongo-db:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGODB_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_PASSWORD}
+      - MONGODB_DATABASE=${MONGODB_DATABASE}
+
+networks:
+  mongo-compose-network:
+    driver: bridge
+
+volumes:
+  mongo-db:

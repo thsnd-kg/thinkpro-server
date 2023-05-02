@@ -6,7 +6,6 @@ import { AppModule } from './app.module';
 import { configSwagger } from './config/swagger.config';
 import { JwtAuthGuard } from './modules/auth/guards';
 
-
 async function bootstrap(): Promise<void> {
   const app = await NestFactory.create(AppModule);
   const configService = app.get(ConfigService);

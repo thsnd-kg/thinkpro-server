@@ -20,5 +20,4 @@ export class UserController {
   async findAll(): Promise<User[]> {
     return await this.userService.findAll();
   }
-
 }
