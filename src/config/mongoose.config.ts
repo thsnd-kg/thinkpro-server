@@ -5,6 +5,10 @@ import { MongoConfig } from './mongo.config';
 export const mongooseConfig: MongooseModuleAsyncOptions = {
   inject: [MongoConfig.KEY],
   useFactory: async (mongoConfig: ConfigType<typeof MongoConfig>): Promise<MongooseModuleFactoryOptions> => {
-    return mongoConfig;
+    const { host, port, database } = mongoConfig;
+
+    return {
+      uri: `mongodb://${host}:${port}/${database}`,
+    };
   },
 };
