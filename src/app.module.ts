@@ -11,6 +11,8 @@ import { CategoryModule } from './modules/category/category.module';
 import configurations from './config';
 import { SeedModule } from './shared/seed.module';
 import { BrandModule } from './modules/brand/brand.module';
+import { FileModule } from './modules/file/file.module';
+import { CloudinaryModule } from './modules/cloudinary/cloudinary.module';
 
 @Module({
   imports: [
@@ -25,6 +27,8 @@ import { BrandModule } from './modules/brand/brand.module';
     CategoryModule,
     SeedModule,
     BrandModule,
+    FileModule,
+    CloudinaryModule,
 
   ],
   providers: [
