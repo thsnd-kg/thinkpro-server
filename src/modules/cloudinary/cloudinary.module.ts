@@ -2,12 +2,11 @@ import { DynamicModule, Module, Provider } from '@nestjs/common';
 import { CloudinaryService } from './cloudinary.service';
 import { v2 as cloudinary } from 'cloudinary';
 import {
-  CLOUDINARY_MODULE_OPTIONS,
   CloudinaryModuleAsyncOptions,
   CloudinaryModuleOptions,
   CloudinaryModuleOptionsFactory
 } from './cloudinary-options.interface';
-import { CLOUDINARY } from './cloudinary.constant';
+import { CLOUDINARY, CLOUDINARY_MODULE_OPTIONS } from './cloudinary.constant';
 
 @Module({})
 export class CloudinaryModule {
@@ -28,9 +27,8 @@ export class CloudinaryModule {
         ...this.createAsyncProviders(options),
         {
           provide: CLOUDINARY,
-          useFactory: (options: CloudinaryModuleOptions) => {
-            cloudinary.config(options);
-            // Configure Cloudinary here
+          useFactory: (configOptions: CloudinaryModuleOptions) => {
+            cloudinary.config(configOptions);
             return cloudinary;
           },
           inject: [CLOUDINARY_MODULE_OPTIONS],
