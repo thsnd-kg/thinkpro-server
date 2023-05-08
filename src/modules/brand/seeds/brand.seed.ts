@@ -20,6 +20,7 @@ export class BrandSeeder {
     const jsonData = JSON.parse(jsonString);
     const brands = jsonData.map((json) => {
       const brand: CreateBrandDto = {
+        id: json.id,
         description: json.description,
         icon: json.icon,
         name: json.name,
