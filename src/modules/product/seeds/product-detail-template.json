@@ -1,0 +1,345 @@
+{
+  "data": {
+    "SKU": "Latitude7320D01NO",
+    "MPN": "",
+    "assets": [
+      {
+        "src": "media\/core\/products\/2022\/9\/30\/dell-latitude-7320-detachable-thinkpro-2.png",
+        "type": "image"
+      },
+      {
+        "src": "media\/core\/products\/2022\/9\/30\/dell-latitude-7320-detachable-thinkpro-3.png",
+        "type": "image"
+      },
+      {
+        "src": "media\/core\/products\/2022\/9\/30\/dell-latitude-7320-detachable-thinkpro-5.png",
+        "type": "image"
+      },
+      {
+        "src": "media\/core\/products\/2022\/10\/4\/dell-latitude-7320-detachable-thinkpro-2.jpg",
+        "type": "image"
+      },
+      {
+        "src": "media\/core\/products\/2022\/10\/4\/dell-latitude-7320-detachable-thinkpro-1.jpg",
+        "type": "image"
+      },
+      {
+        "src": "media\/core\/products\/2022\/10\/4\/dell-latitude-7320-detachable-thinkpro.jpg",
+        "type": "image"
+      }
+    ],
+    "variations": [
+      {
+        "label": "Phi\u00ean b\u1ea3n",
+        "name": "specs",
+        "options": [
+          {
+            "name": "i5 1140G7, FHD+ Touch\n 8GB, 256GB"
+          }
+        ]
+      },
+      {
+        "label": "M\u00e0u",
+        "name": "color",
+        "options": [
+          {
+            "name": "\u0110en"
+          }
+        ]
+      },
+      {
+        "label": "Lo\u1ea1i h\u00e0ng",
+        "name": "type",
+        "options": [
+          {
+            "name": "Outlet, Nh\u1eadp kh\u1ea9u"
+          }
+        ]
+      }
+    ],
+    "models": [
+      {
+        "name": "Dell Latitude 7320 Detachable (K\u00e8m b\u00e0n ph\u00edm)",
+        "shared_url": "laptop\/dell-latitude-7320-detachable-4915",
+        "price": 16990000,
+        "model_value": [
+          "i5 1140G7, FHD+ Touch\n 8GB, 256GB",
+          "\u0110en",
+          "Outlet, Nh\u1eadp kh\u1ea9u"
+        ],
+        "slug": "dell-latitude-7320-detachable-latitude7320d01no",
+        "image": "media\/core\/products\/2022\/10\/2\/DELL-Latitude-7320-Detachable-H2.png",
+        "is_available": true,
+        "colors": [
+          {
+            "code": "#000000",
+            "name": "\u0110en"
+          }
+        ],
+        "price_before_discount": 19990000,
+        "price_discount_percent": 15
+      }
+    ],
+    "model_value": [
+      "i5 1140G7, FHD+ Touch\n 8GB, 256GB",
+      "\u0110en",
+      "Outlet, Nh\u1eadp kh\u1ea9u"
+    ],
+    "promotion": {
+      "up_to_discount_amount": 3000000,
+      "items": [
+        "T\u1eb7ng k\u00e8m chu\u1ed9t kh\u00f4ng d\u00e2y Ugreen Bluetooth & Wireless",
+        "SALE T\u01afNG B\u1eeaNG M\u1eeaNG \u0110\u1ea0I L\u1ec4"
+      ]
+    },
+    "brand": {
+      "id": 169,
+      "name": "Laptop Dell Latitude",
+      "icon": "backend\/uploads\/brand\/icon\/2020\/8\/7\/dell.png",
+      "description": "Dell Latitude lu\u00f4n \u0111i li\u1ec1n v\u1edbi \u0111\u1ed9 b\u1ec1n b\u1ec9 nh\u1edd l\u1edbp v\u1ecf c\u1ee9ng c\u00e1p c\u00f9ng b\u1ed9 khung kim lo\u1ea1i ch\u1eafc ch\u1eafn. H\u01b0\u1edbng t\u1edbi \u0111a s\u1ed1 \u0111\u1ed1i t\u01b0\u1ee3ng ng\u01b0\u1eddi d\u00f9ng nh\u01b0 doanh nh\u00e2n, nh\u00e2n vi\u00ean v\u0103n ph\u00f2ng, sinh vi\u00ean, ... m\u1eabu s\u1ea3n ph\u1ea9m n\u00e0y \u0111\u01b0\u1ee3c \u0111\u00e1nh gi\u00e1 cao nh\u1edd hi\u1ec7u su\u1ea5t m\u1ea1nh m\u1ebd, \u0111\u00e1p \u1ee9ng nhanh g\u1ecdn m\u1ecdi t\u00e1c v\u1ee5 t\u1eeb c\u01a1 b\u1ea3n t\u1edbi n\u00e2ng cao",
+      "total": 3,
+      "is_verify": true,
+      "is_premium": false,
+      "slug": "laptop-dell-latitude",
+      "shared_url": "laptop-dell-latitude"
+    },
+    "guarantee": {
+      "name": "ThinkPro - C\u0169, m\u1edbi Nh\u1eadp kh\u1ea9u",
+      "time": 12,
+      "description": "<ul><li>B\u1ea3o h\u00e0nh <strong>12 th\u00e1ng t\u1ea1i chu\u1ed7i c\u1eeda h\u00e0ng<\/strong><\/li><li>\u0110\u1ed5i m\u1edbi trong 15 ng&agrave;y \u0111\u1ea7u ti&ecirc;n<\/li><\/ul>",
+      "notes": "<p>B\u1ea3o h&agrave;nh 12 th&aacute;ng t\u1ea1i ThinkPro v\u1edbi linh ki\u1ec7n ph\u1ea7n c\u1ee9ng (\u0110\u1ed1i v\u1edbi Pin v&agrave; M&agrave;n h&igrave;nh 06 th&aacute;ng)<\/p><p><a href=\"https:\/\/thinkpro.vn\/noi-dung\/chinh-sach-bao-hanh-thinkpro\">Xem th&ecirc;m chi ti\u1ebft Ch&iacute;nh s&aacute;ch b\u1ea3o h&agrave;nh t\u1ea1i ThinkPro<\/a><\/p><p><strong>Ch&iacute;nh s&aacute;ch \u0111\u1ed5i tr\u1ea3 t\u1ea1i ThinkPro:<\/strong><\/p><p style=\"padding-left: 40px;\"><strong>1. L\u1ed7i do nh&agrave; s\u1ea3n xu\u1ea5t:<\/strong><\/p><ul><li>Trong 15 ng&agrave;y \u0111\u1ea7u 1 \u0111\u1ed5i 1 s\u1ea3n ph\u1ea9m n\u1ebfu x\u1ea3y ra l\u1ed7i c\u1ee7a nh&agrave; s\u1ea3n xu\u1ea5t, qu&yacute; kh&aacute;ch c&oacute; th\u1ec3 \u0111\u1ed5i t\u1ea1i to&agrave;n b\u1ed9 c&aacute;c chi nh&aacute;nh thu\u1ed9c h\u1ec7 th\u1ed1ng c\u1ee7a ThinkPro. Trong tr\u01b0\u1eddng h\u1ee3p ThinkPro h\u1ebft h&agrave;ng \u0111\u1ec3 \u0111\u1ed5i, c\u1eeda h&agrave;ng s\u1ebd ho&agrave;n 100% gi&aacute; tr\u1ecb tr&ecirc;n h&oacute;a \u0111\u01a1n mua h&agrave;ng c\u1ee7a Qu&yacute; kh&aacute;ch.&nbsp;<\/li><\/ul><p style=\"padding-left: 40px;\"><strong>2. S\u1ea3n ph\u1ea9m kh&ocirc;ng l\u1ed7i:<\/strong><\/p><ul><li>\u0110\u1ed1i v\u1edbi s\u1ea3n ph\u1ea9m m\u1edbi: Trong 15 ng&agrave;y \u0111\u1ea7u ti&ecirc;n, n\u1ebfu s\u1ea3n ph\u1ea9m kh&ocirc;ng l\u1ed7i Qu&yacute; kh&aacute;ch mu\u1ed1n \u0111\u1ed5i s\u1ea3n ph\u1ea9m kh&aacute;c ThinkPro s\u1ebd t&iacute;nh ph&iacute; \u0111\u1ed5i s\u1ea3n ph\u1ea9m l&agrave; 15%, trong tr\u01b0\u1eddng h\u1ee3p Qu&yacute; kh&aacute;ch mu\u1ed1n tr\u1ea3 l\u1ea1i s\u1ea3n ph\u1ea9m ThinkPro s\u1ebd t&iacute;nh ph&iacute; 25% gi&aacute; tr\u1ecb s\u1ea3n ph\u1ea9m.<\/li><li>\u0110\u1ed1i v\u1edbi s\u1ea3n ph\u1ea9m qua s\u1eed d\u1ee5ng: Trong 15 ng&agrave;y \u0111\u1ea7u ti&ecirc;n, ThinkPro cung c\u1ea5p d\u1ecbch v\u1ee5 d&ugrave;ng th\u1eed mi\u1ec5n ph&iacute;, Qu&yacute; kh&aacute;ch c&oacute; th\u1ec3 \u0111\u1ed5i s\u1ea3n ph\u1ea9m kh&aacute;c n\u1ebfu th\u1ea5y s\u1ea3n ph\u1ea9m m&igrave;nh \u0111ang s\u1eed d\u1ee5ng ch\u01b0a ph&ugrave; h\u1ee3p v\u1edbi nhu c\u1ea7u. Trong tr\u01b0\u1eddng h\u1ee3p Qu&yacute; kh&aacute;ch mu\u1ed1n tr\u1ea3 l\u1ea1i s\u1ea3n ph\u1ea9m ThinkPro s\u1ebd t&iacute;nh ph&iacute; 15% gi&aacute; tr\u1ecb s\u1ea3n ph\u1ea9m.<\/li><\/ul><p style=\"padding-left: 40px;\"><strong>3. S\u1ea3n ph\u1ea9m l\u1ed7i do ng\u01b0\u1eddi s\u1eed d\u1ee5ng<\/strong><\/p><ul><li>Trong tr\u01b0\u1eddng h\u1ee3p s\u1ea3n ph\u1ea9m x\u1ea3y ra l\u1ed7i do ng\u01b0\u1eddi s\u1eed d\u1ee5ng, vi ph\u1ea1m c&aacute;c ch&iacute;nh s&aacute;ch b\u1ea3o h&agrave;nh t\u1ea1i ThinkPro (Qu&yacute; kh&aacute;ch c&oacute; th\u1ec3 tham kh\u1ea3o chi ti\u1ebft t\u1ea1i <a href=\"https:\/\/thinkpro.vn\/noi-dung\/chinh-sach-bao-hanh-thinkpro\">Ch&iacute;nh s&aacute;ch b\u1ea3o h&agrave;nh<\/a>), ThinkPro kh&ocirc;ng h\u1ed7 tr\u1ee3 \u0111\u1ed5i\/tr\u1ea3 s\u1ea3n ph\u1ea9m. ThinkPro s\u1ebd h\u1ed7 tr\u1ee3 Qu&yacute; kh&aacute;ch s\u1eeda ch\u1eefa d\u1ecbch v\u1ee5 \u0111\u1ed1i v\u1edbi s\u1ea3n ph\u1ea9m n&agrave;y.<\/li><\/ul><p><a href=\"https:\/\/thinkpro.vn\/noi-dung\/chinh-sach-doi-tra-thinkpro\">Xem th&ecirc;m chi ti\u1ebft Ch&iacute;nh s&aacute;ch \u0111\u1ed5i tr\u1ea3 s\u1ea3n ph\u1ea9m t\u1ea1i ThinkPro<\/a>.<\/p>"
+    },
+    "attributes": [
+      {
+        "items": [
+          {
+            "label": "Lo\u1ea1i CPU",
+            "value": "Intel Core i5 1140G7, 4C\/8T",
+            "article": null
+          },
+          {
+            "label": "T\u1ed1c \u0111\u1ed9",
+            "value": "1.8GHz , L\u00ean t\u1edbi",
+            "article": null
+          },
+          {
+            "label": "B\u1ed9 nh\u1edb \u0111\u1ec7m",
+            "value": "8MB",
+            "article": null
+          }
+        ],
+        "group_name": "B\u1ed9 x\u1eed l\u00fd"
+      },
+      {
+        "items": [
+          {
+            "label": "Card onboard",
+            "value": "Intel Iris Xe Graphics",
+            "article": null
+          },
+          {
+            "label": "Card r\u1eddi",
+            "value": "Kh\u00f4ng",
+            "article": null
+          }
+        ],
+        "group_name": "Card \u0111\u1ed3 h\u1ecda"
+      },
+      {
+        "items": [
+          {
+            "label": "Dung l\u01b0\u1ee3ng",
+            "value": "8GB LPDDR4X 4267MHz",
+            "article": null
+          },
+          {
+            "label": "H\u1ed7 tr\u1ee3 t\u1ed1i \u0111a",
+            "value": "8GB (Kh\u00f4ng th\u1ec3 n\u00e2ng c\u1ea5p)",
+            "article": null
+          }
+        ],
+        "group_name": "RAM"
+      },
+      {
+        "items": [
+          {
+            "label": "Dung l\u01b0\u1ee3ng SSD",
+            "value": "256GB (M.2 NVMe)",
+            "article": null
+          },
+          {
+            "label": "Kh\u1ea3 n\u0103ng n\u00e2ng c\u1ea5p",
+            "value": "H\u1ed7 tr\u1ee3 1 SSD",
+            "article": null
+          }
+        ],
+        "group_name": "\u1ed4 c\u1ee9ng"
+      },
+      {
+        "items": [
+          {
+            "label": "M\u00e0n h\u00ecnh",
+            "value": "13inches, 1920 x 1280px, 60Hz",
+            "article": null
+          },
+          {
+            "label": "T\u1ea5m ph\u1ee7",
+            "value": "G\u01b0\u01a1ng, C\u1ea3m \u1ee9ng",
+            "article": null
+          },
+          {
+            "label": "Th\u00f4ng s\u1ed1 kh\u00e1c",
+            "value": "T\u1ec9 l\u1ec7 3:2, WVA, 500Nits, 100 sRGB",
+            "article": null
+          }
+        ],
+        "group_name": "M\u00e0n h\u00ecnh"
+      },
+      {
+        "items": [
+          {
+            "label": "Kh\u1ed1i l\u01b0\u1ee3ng",
+            "value": "1.18kg",
+            "article": null
+          },
+          {
+            "label": "K\u00edch th\u01b0\u1edbc",
+            "value": "x  x",
+            "article": null
+          }
+        ],
+        "group_name": "Kh\u1ed1i l\u01b0\u1ee3ng & K\u00edch th\u01b0\u1edbc"
+      },
+      {
+        "items": [
+          {
+            "label": "Dung l\u01b0\u1ee3ng pin",
+            "value": "40WHr Li-Polymer",
+            "article": null
+          }
+        ],
+        "group_name": "Pin"
+      },
+      {
+        "items": [
+          {
+            "label": "Webcam",
+            "value": "C\u00f3",
+            "article": null
+          }
+        ],
+        "group_name": "Webcam v\u00e0 \u00c2m thanh"
+      },
+      {
+        "items": [
+          {
+            "label": "C\u1ed5ng k\u1ebft n\u1ed1i",
+            "value": "2 x USB Type C,   Jack tai nghe 3.5mm,",
+            "article": null
+          },
+          {
+            "label": "Khe th\u1ebb SD\/ Micro SD",
+            "value": "khe th\u1ebb SD,  khe micro SD",
+            "article": null
+          }
+        ],
+        "group_name": "C\u1ed5ng k\u1ebft n\u1ed1i"
+      },
+      {
+        "items": [
+          {
+            "label": "Bluetooth",
+            "value": "C\u00f3",
+            "article": null
+          },
+          {
+            "label": "K\u1ebft n\u1ed1i LTE\/WWAN",
+            "value": "Kh\u00f4ng h\u1ed7 tr\u1ee3",
+            "article": null
+          }
+        ],
+        "group_name": "K\u1ebft n\u1ed1i"
+      },
+      {
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 10",
+            "article": null
+          }
+        ],
+        "group_name": "H\u1ec7 \u0111i\u1ec1u h\u00e0nh"
+      }
+    ],
+    "article": {
+      "title": "Dell Latitude 7320 Detachable: Kh\u00f4ng ph\u1ea3i Surface Pro nh\u01b0ng v\u1eabn r\u1ea5t \u201cx\u1ecbn\u201d",
+      "description": "Kh\u00f4ng ph\u1ea3i l\u00e0 Surface Pro, \u1edf Dell Latitude \u0111\u00e3 mang trong m\u00ecnh m\u1ed9t phong c\u00e1ch thi\u1ebft k\u1ebf r\u1ea5t kh\u00e1c \u0111i k\u00e8m m\u1ed9t s\u1ee9c m\u1ea1nh hi\u1ec7u n\u0103ng v\u00f4 c\u00f9ng \u0111\u00e1ng n\u1ec3. C\u1ee5 th\u1ec3 nh\u01b0 n\u00e0o, h\u00e3y c\u00f9ng ThinkPro t\u00ecm hi\u1ec3u chi ti\u1ebft h\u01a1n v\u1ec1 chi\u1ebfc Dell Latitude 7320 Detachable trong b\u00e0i vi\u1ebft d\u01b0\u1edbi \u0111\u00e2y nh\u00e9.",
+      "content": "<h2>Dell Latitude 7320 Detachable c\u00f3 th\u1eadt s\u1ef1 l\u00e0 m\u00f3n h\u1eddi?<\/h2><img style=\"width: [object Object]; height: [object Object]; object-fit: [object Object]; display: [object Object]\" src=\"https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-1.png\" alt=\"dell-latitude-7320-detachable-thinkpro-1\" fullscreen=\"false\" description=\"Nh\u1eefng \u01b0u v\u00e0 nh\u01b0\u1ee3c \u0111i\u1ec3m \u0111\u00e1ng ch\u00fa \u00fd tr\u00ean Dell Laitude 7320 Detachable\"><h3>\u01afu \u0111i\u1ec3m<\/h3><ul><li><p style=\"text-align: justify\"><strong>Dell Latitude 7320 Detachable<\/strong> c\u00f3 phong c\u00e1ch thi\u1ebft k\u1ebf m\u1edbi l\u1ea1, \u0111a d\u1ea1ng d\u1ee5ng.<\/p><\/li><\/ul><ul><li><p style=\"text-align: justify\">Nh\u1eefng th\u00f4ng s\u1ed1 v\u1eadt l\u00fd c\u1ee7a m\u00e1y si\u00eau \u1ea5n t\u01b0\u1ee3ng.<\/p><\/li><\/ul><ul><li><p style=\"text-align: justify\">Ch\u1ea5t l\u01b0\u1ee3ng hi\u1ec3n th\u1ecb \u0111\u00e1ng n\u1ec3, khung h\u00ecnh s\u1eafc n\u00e9t.<\/p><\/li><\/ul><ul><li><p style=\"text-align: justify\">S\u1ee9c m\u1ea1nh \u1ea5n t\u01b0\u1ee3ng, hi\u1ec7u su\u1ea5t m\u1ea1nh m\u1ebd.<\/p><\/li><\/ul><h3>Nh\u01b0\u1ee3c \u0111i\u1ec3m<\/h3><ul><li><p style=\"text-align: justify\">Kh\u00f4ng \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3 c\u1ed5ng USB Type-A.<\/p><\/li><\/ul><h2>Review Dell Latitude 7320 Detachable: \u0110\u1ec9nh cao thi\u1ebft k\u1ebf, ti\u1ec7n l\u1ee3i tr\u1ea3i nghi\u1ec7m<\/h2><img style=\"width: [object Object]; height: [object Object]; object-fit: [object Object]; display: [object Object]\" src=\"https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-2.png\" alt=\"dell-latitude-7320-detachable-thinkpro-2\" fullscreen=\"false\" description=\"Dell Latitude 7320 Detachable c\u00f3 thi\u1ebft k\u1ebf hi\u1ec7n \u0111\u1ea1i, sang tr\u1ecdng v\u00e0 v\u00f4 c\u00f9ng \u0111a d\u1ee5ng\"><p style=\"text-align: justify\">Kh\u00f4ng c\u00f2n l\u00e0 nh\u1eefng n\u00e9t \u0111\u01a1n gi\u1ea3n, c\u0169ng ch\u1eb3ng m\u1ed9c m\u1ea1c. Dell \u0111\u00e3 r\u1ea5t ch\u1ecbu kh\u00f3 n\u00e2ng c\u1ea5p v\u1ec1 ph\u1ea7n giao di\u1ec7n cho nh\u1eefng \u201c\u0111\u1ee9a con c\u01b0ng\u201d - Latitude trong nh\u1eefng n\u0103m g\u1ea7n \u0111\u00e2y. \u0110i\u1ec1u n\u00e0y \u0111\u00e3 \u0111\u01b0\u1ee3c th\u1ec3 hi\u1ec7n kh\u00e1 r\u00f5 qua phi\u00ean b\u1ea3n <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https:\/\/thinkpro.vn\/dell-latitude-7320-detachable-latitude7320d03no\"><strong>Dell Latitude 7320 Detachable<\/strong><\/a>. M\u00e1y g\u00e2y \u1ea5n t\u01b0\u1ee3ng b\u1edfi m\u1ed9t \u201ccu\u1ed9c \u0111\u1ea1i c\u00e1ch m\u1ea1ng\u201d thi\u1ebft k\u1ebf k\u1ebf. V\u1edbi nh\u1eefng n\u00e9t hi\u1ec7n \u0111\u1ea1i, thanh l\u1ecbch v\u00e0 ki\u00eau sa h\u01a1n. \u0110i\u1ec1u n\u00e0y l\u00e0 kh\u00e1c h\u1eb3n so v\u1edbi ph\u1ea7n \u0111\u00f4ng ng\u01b0\u1eddi d\u00f9ng v\u1eabn ngh\u0129 v\u1ec1 d\u00f2ng s\u1ea3n ph\u1ea9m Latitude tr\u01b0\u1edbc \u0111\u00f3. N\u1ebfu nh\u00ecn qua b\u1ea1n s\u1ebd th\u1ea5y chi\u1ebfc Dell Latitude 7320 Detachable kh\u00e1 gi\u1ed1ng v\u1edbi nh\u1eefng \"si\u00eau ph\u1ea9m Surface Pro\" \u0111\u1ebfn t\u1eeb \u201c\u00f4ng l\u1edbn\u201d Microsoft.<\/p><p style=\"text-align: justify\">C\u00e1c chi ti\u1ebft tr\u00ean m\u00e1y c\u0169ng \u0111\u01b0\u1ee3c h\u00e3ng ch\u00fa tr\u1ecdng v\u00e0 l\u00e0m t\u1ec9 m\u1ec9 h\u01a1n nhi\u1ec1u. T\u1eeb m\u1eb7t A \u0111\u1ebfn m\u1eb7t C \u0111\u1ec1u mang n\u00e9t tinh t\u1ebf m\u00e0 ng\u01b0\u1eddi d\u00f9ng c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng nh\u1eadn th\u1ea5y. Ph\u1ea3i n\u00f3i r\u1eb1ng, \u0111\u00e2y l\u00e0 \"b\u01b0\u1edbc chuy\u1ec3n m\u00ecnh\" \u0111\u00e1ng \u0111\u1ec3 ch\u00fang ta d\u00e0nh l\u1eddi khen cho nh\u1eefng g\u00ec m\u00e0 Dell \u0111\u00e3 \u0111\u1ea7u t\u01b0 cho m\u00e1y. Nh\u00ecn s\u00e2u r\u1ed9ng h\u01a1n, phong c\u00e1ch thi\u1ebft k\u1ebf n\u00e0y c\u0169ng gi\u00fap m\u00e1y c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng h\u01a1n trong vi\u1ec7c ti\u1ebfp c\u1eadn \u0111\u1ebfn \u0111a d\u1ea1ng \u0111\u1ed1i t\u01b0\u1ee3ng ng\u01b0\u1eddi d\u00f9ng.<\/p><image-album-view class=\"t-viewer__image-album\" images=\"https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-3.png,https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-9.png\"><\/image-album-view><p style=\"text-align: justify\">X\u00e9t v\u1ec1 c\u00e1c th\u00f4ng s\u1ed1 v\u1eadt l\u00fd, m\u00e1y c\u00f3 tr\u1ecdng l\u01b0\u1ee3ng <strong>0.8kg <\/strong>v\u00e0 k\u00edch th\u01b0\u1edbc l\u1ea7n l\u01b0\u1ee3t<strong> 288.42mm x 207mm x 8.44mm<\/strong>. \u0110\u00e2y s\u1ebd l\u00e0 \u0111i\u1ec1u ki\u1ec7n l\u00fd t\u01b0\u1edfng \u0111\u1ec3 ng\u01b0\u1eddi d\u00f9ng c\u00f3 th\u1ec3 t\u1ef1 tin mang v\u00e1c m\u00e1y theo m\u00ecnh \u0111\u1ec3 l\u00e0m vi\u1ec7c \u1edf b\u1ea5t c\u1ee9 \u0111\u00e2u. C\u00f2n v\u1ec1 ch\u1ea5t l\u01b0\u1ee3ng ho\u00e0n thi\u1ec7n, Dell ch\u01b0a bao gi\u1edd l\u00e0m ng\u01b0\u1eddi d\u00f9ng ph\u1ea3i th\u1ea5t v\u1ecdng khi ch\u00fang ta \u0111\u1eb7t c\u00e1c m\u1eabu s\u1ea3n ph\u1ea9m c\u1ee7a h\u00e3ng \u201cl\u00ean b\u00e0n c\u00e2n\u201d \u0111\u1ec3 so s\u00e1nh v\u1edbi c\u00e1c \u0111\u1ed1i th\u1ee7 trong t\u1ea7m gi\u00e1. <strong>Dell Latitude 7320 2 in 1<\/strong> \u0111\u01b0\u1ee3c ho\u00e0n thi\u1ec7n t\u1eeb ch\u1ea5t li\u1ec7u kim lo\u1ea1i v\u00e0 \u0111\u01b0\u1ee3c ph\u1ee7 l\u1edbp s\u01a1n x\u00e1m b\u1ea1c. Nh\u1eefng hi\u1ec7n t\u01b0\u1ee3ng flex l\u00e0 nh\u1eefng \u201c\u0111i\u1ec1u xa x\u1ec9\u201d m\u00e0 r\u1ea5t kh\u00f3 \u0111\u1ec3 ng\u01b0\u1eddi d\u00f9ng b\u1eaft g\u1eb7p tr\u00ean em m\u00e1y n\u00e0y.<\/p><h2>Tr\u1ea3i nghi\u1ec7m khung h\u00ecnh s\u1eafc n\u00e9t, s\u1ed1ng \u0111\u1ed9ng \u0111a chi\u1ec1u<\/h2><img style=\"width: [object Object]; height: [object Object]; object-fit: [object Object]; display: [object Object]\" src=\"https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-4.png\" alt=\"man-hinh-sac-net-4\" fullscreen=\"false\" description=\"M\u00e0n h\u00ecnh s\u1eafc n\u00e9t, \u0111\u1ed9 s\u00e1ng m\u00e0n h\u00ecnh v\u00f4 c\u00f9ng \u1ea5n t\u01b0\u1ee3ng\"><p style=\"text-align: justify\">Dell Latitude 7320 Detachable \u0111\u01b0\u1ee3c trang b\u1ecb m\u00e0n h\u00ecnh <strong>IPS<\/strong> k\u00edch th\u01b0\u1edbc <strong>13.3 inch<\/strong>, \u0111\u1ed9 ph\u00e2n gi\u1ea3i <strong>Full HD<\/strong>. X\u00e9t trong c\u00f9ng ph\u00e2n kh\u00fac gi\u00e1, ch\u1ea5t l\u01b0\u1ee3ng hi\u1ec3n th\u1ecb m\u00e0 m\u00e1y mang l\u1ea1i l\u00e0 t\u01b0\u01a1ng \u0111\u1ed1i \u1ed5n. Khung h\u00ecnh ch\u00e2n th\u1ee9c, chi ti\u1ebft h\u01a1n m\u1ecdi g\u00f3c nh\u00ecn. H\u01a1n th\u1ebf n\u1eefa, \u0111\u1ed9 ph\u1ee7 m\u00e0u c\u1ee7a m\u00e1y \u0111\u1ea1t <strong>100% sRGB<\/strong> v\u00e0 \u0111\u1ed9 s\u00e1ng m\u00e0n h\u00ecnh <strong>500 nits<\/strong>. Ph\u1ea3i n\u00f3i r\u1eb1ng, \u0111\u1ed9 s\u00e1ng c\u1ee7a m\u00e1y l\u00e0 v\u00f4 c\u00f9ng \u1ea5n t\u01b0\u1ee3ng \u0111\u1ed1i v\u1edbi m\u1ed9t chi\u1ebfc laptop v\u0103n ph\u00f2ng. \u0110\u1eb7c bi\u1ec7t l\u00e0 khi ch\u00fang ta nh\u00ecn v\u00e0o m\u1ee9c gi\u00e1 m\u00e0 m\u00e1y \u0111ang \u0111\u01b0\u1ee3c cung c\u1ea5p tr\u00ean th\u1ecb tr\u01b0\u1eddng.<\/p><p style=\"text-align: justify\">\u0110i\u1ec3m \u0111\u00e1ng ch\u00fa \u00fd l\u00e0 t\u1ef7 l\u1ec7 m\u00e0n h\u00ecnh c\u1ee7a m\u00e1y l\u00e0 <strong>3:2<\/strong>. D\u00f9 kh\u00f4ng ph\u1ed5 bi\u1ebfn b\u1eb1ng t\u1ef7 l\u1ec7 16:9 hay 16:10. Nh\u01b0ng t\u1ef7 l\u1ec7 3:2 \u0111ang d\u1ea7n cho th\u1ea5y \u0111\u01b0\u1ee3c v\u1ecb th\u1ebf c\u1ee7a m\u00ecnh. N\u00f3 c\u00f3 th\u1ec3 gi\u00fap t\u1ed1i \u01b0u kh\u00f4ng gian hi\u1ec3n th\u1ecb v\u00f4 c\u00f9ng t\u1ed1t theo chi\u1ec1u d\u1ecdc. Tuy nhi\u00ean, t\u1ef7 l\u1ec7 m\u00e0n h\u00ecnh n\u00e0y v\u1eabn c\u00f3 m\u1ed9t h\u1ea1n ch\u1ebf nh\u1ecf v\u1ec1 kh\u1ea3 n\u0103ng hi\u1ec3n th\u1ecb video. L\u00fac n\u00e0y, khi xem c\u00e1c t\u1ef1a phim gi\u1ea3i tr\u00ed ph\u1ea7n vi\u1ec1n \u0111en nh\u1ecf s\u1ebd xu\u1ea5t hi\u1ec7n \u1edf tr\u00ean v\u00e0 d\u01b0\u1edbi m\u00e0n h\u00ecnh.<\/p><h2>B\u00e0n ph\u00edm v\u00e0 touchpad mang n\u00e9t t\u01b0\u01a1ng \u0111\u1ed3ng v\u1edbi Surface Pro<\/h2><image-album-view class=\"t-viewer__image-album\" images=\"https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-5.png,https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-6.png\"><\/image-album-view><p style=\"text-align: justify\">Tham kh\u1ea3o nh\u1eefng g\u00ec m\u00e0 Surface Pro \u0111\u00e3 l\u00e0m r\u1ea5t t\u1ed1t tr\u00ean c\u1ee5m b\u00e0n ph\u00edm r\u1eddi Type Cover. B\u00e0n ph\u00edm c\u1ee7a Dell Latitude 7320 Detachable s\u1edf h\u1eefu layout v\u00f4 c\u00f9ng h\u1ee3p l\u00fd. H\u00e0nh tr\u00ecnh ph\u00edm v\u00e0 \u0111\u1ed9 n\u1ea3y t\u01b0\u01a1ng \u0111\u1ed1i \u1ed5n. Do \u0111\u00f3, vi\u1ec7c g\u00f5 c\u0169ng \u0111\u01b0\u1ee3c tho\u1ea3i m\u00e1i v\u00e0 d\u1ec5 d\u00e0ng h\u01a1n nhi\u1ec1u. D\u00f9 ph\u1ea3i thao t\u00e1c trong th\u1eddi gian c\u0169ng kh\u00f4ng ph\u1ea3i l\u00e0 v\u1ea5n \u0111\u1ec1.<\/p><p style=\"text-align: justify\">Touchpad c\u1ee7a m\u00e1y \u0111\u01b0\u1ee3c l\u00e0m v\u1edbi b\u1ec1 m\u1eb7t ph\u1eb3ng m\u1ecbn. Thao t\u00e1c di m\u01b0\u1ee3t m\u00e0, \u0111\u1ed9 nh\u1ea1y t\u1ed1t, c\u1ea3m gi\u00e1c vu\u1ed1t ch\u1ea1m c\u1ef1c k\u1ef3 \u1ea5n t\u01b0\u1ee3ng. Tuy nhi\u00ean, k\u00edch th\u01b0\u1edbc touchpad \u0111\u01b0\u1ee3c l\u00e0m kh\u00e1 nh\u1ecf. Do \u0111\u00f3, vi\u1ec7c thao t\u00e1c \u0111a ng\u00f3n s\u1ebd g\u1eb7p \u0111\u00f4i ch\u00fat tr\u1edf ng\u1ea1i trong qu\u00e1 tr\u00ecnh s\u1eed d\u1ee5ng.<\/p><h2>Hi\u1ec7u n\u0103ng \u0111\u00e1ng n\u1ec3, \u201cc\u00e2n\u201d m\u01b0\u1ee3t m\u00e0 c\u00e1c t\u00e1c v\u1ee5<\/h2><img style=\"width: [object Object]; height: [object Object]; object-fit: [object Object]; display: [object Object]\" src=\"https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-7.png\" alt=\"diem-so-cinbench-20-6\" fullscreen=\"false\" description=\"Tham kh\u1ea3o \u0111i\u1ec3m s\u1ed1 CINEBENCH 20 tr\u00ean chi\u1ebfc Dell Latitude 7320 Detachable\"><p style=\"text-align: justify\">\u1ea8n sau th\u00e2n h\u00ecnh m\u1ecfng nh\u1eb9 v\u1edbi cu\u1ed9c \u201cl\u1ed9t x\u00e1c ngo\u1ea1n m\u1ee5c\" n\u00e0y c\u00f2n l\u00e0 m\u1ed9t s\u1ee9c m\u1ea1nh hi\u1ec7u n\u0103ng v\u00f4 c\u00f9ng \u1ea5n t\u01b0\u1ee3ng. H\u00e3ng \u0111\u00e3 mang \u0111\u1ebfn c\u00e1c t\u00f9y ch\u1ecdn bao g\u1ed3m: Intel Core i5 1130G7, Core i5 1140G7 v\u00e0 Core i7 1180G7. D\u00e0nh cho nh\u1eefng ai ch\u01b0a bi\u1ebft th\u00ec \u0111\u00e2y l\u00e0 d\u00f2ng chip cho m\u1ee9c hi\u1ec7u n\u0103ng m\u1ea1nh m\u1ebd nh\u01b0ng l\u1ea1i t\u1ed1i \u01b0u \u0111i\u1ec7n n\u0103ng ti\u00eau th\u1ee5. \u1ede phi\u00ean b\u1ea3n <strong>Dell Latitude 7320 Detachable i5 1140G7<\/strong> (4 nh\u00e2n\/8 lu\u1ed3ng). \u0110\u01b0\u1ee3c h\u1ed7 tr\u1ee3 <strong>8GB <\/strong>RAM LPDDR4x bus 4267MHz, <strong>256GB <\/strong>SSD v\u00e0 <strong>Intel Iris Xe Graphics<\/strong>.<\/p><img style=\"width: [object Object]; height: [object Object]; object-fit: [object Object]; display: [object Object]\" src=\"https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-8.png\" alt=\"suc-manh-hieu-nang-7\" fullscreen=\"false\" description=\"S\u1ee9c m\u1ea1nh hi\u1ec7u n\u0103ng c\u1ee7a m\u00e1y v\u00f4 c\u00f9ng \u1ea5n t\u01b0\u1ee3ng \u0111\u1ec3 gi\u1ea3i quy\u1ebft c\u00e1c t\u00e1c v\u1ee5 c\u01a1 b\u1ea3n c\u1ee7a ng\u01b0\u1eddi d\u00f9ng\"><p style=\"text-align: justify\">Th\u1ef1c t\u1ebf, v\u1edbi m\u1ee9c hi\u1ec7u n\u0103ng n\u00e0y c\u00e1c t\u00e1c v\u1ee5 h\u1ecdc t\u1eadp hay l\u00e0m vi\u1ec7c v\u0103n ph\u00f2ng ch\u01b0a bao gi\u1edd l\u00e0 v\u1ea5n \u0111\u1ec1 tr\u1edf ng\u1ea1i v\u1edbi Dell Latitude 7320 Detachable. \u1ede nh\u1eefng t\u00e1c v\u1ee5 \u0111\u1ed3 h\u1ecda 2D c\u01a1 b\u1ea3n, l\u00e0m vi\u1ec7c v\u1edbi Photoshop, Lightroom,... c\u0169ng \u0111\u01b0\u1ee3c m\u00e1y \u0111\u00e1p \u1ee9ng t\u01b0\u01a1ng \u0111\u1ed1i m\u01b0\u1ee3t m\u00e0. V\u1ed1n l\u00e0 m\u1ed9t m\u1eabu s\u1ea3n ph\u1ea9m thi\u00ean v\u1ec1 c\u00f4ng vi\u1ec7c n\u00ean v\u1ec1 hi\u1ec7u su\u1ea5t ch\u01a1i game c\u1ee7a m\u00e1y ch\u00fang ta c\u0169ng kh\u00f4ng th\u1ec3 \u0111\u00f2i h\u1ecfi qu\u00e1 nhi\u1ec1u. \u0110\u1ed1i v\u1edbi nh\u1eefng t\u1ef1a game online nh\u01b0 LOL, Li\u00ean minh huy\u1ec1n tho\u1ea1i,... th\u00ec <strong>Dell Latitude 7320 2 in 1 <\/strong>v\u1eabn c\u00f3 th\u1ec3 \u0111\u00e1p \u1ee9ng t\u1ed1t v\u1edbi m\u1ee9c FPS cao v\u00e0 v\u00f4 c\u00f9ng \u1ed5n \u0111\u1ecbnh. C\u00f2n v\u1edbi nh\u1eefng t\u1ef1a game AAA \u0111\u1ec9nh cao h\u01a1n th\u00ec ch\u1eafc ch\u1eafn \u0111\u00e2y s\u1ebd kh\u00f4ng ph\u1ea3i l\u00e0 s\u1ef1 l\u1ef1a ch\u1ecdn t\u1ed1i \u01b0u cho ng\u01b0\u1eddi d\u00f9ng.<\/p><h2>C\u00e1c c\u1ed5ng k\u1ebft n\u1ed1i tr\u00ean Dell Latitude 7320 Detachable<\/h2><image-album-view class=\"t-viewer__image-album\" images=\"https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-11.png,https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-12.png\"><\/image-album-view><p style=\"text-align: justify\">B\u00ean ph\u1ea3i th\u00e2n m\u00e1y \u0111\u01b0\u1ee3c trang b\u1ecb c\u1ed5ng Thunderbolt 4 n\u1eb1m \u1edf ch\u00ednh gi\u1eefa, khe th\u1ebb microSD. B\u00ean tr\u00e1i m\u00e1y \u0111\u01b0\u1ee3c t\u00edch h\u1ee3p c\u1ed5ng Thunderbolt 2, khe l\u1eafp kh\u00f3a an to\u00e0n, jack c\u1eafm 3.5mm v\u00e0 n\u00fat t\u0103ng gi\u1ea3m \u00e2m l\u01b0\u1ee3ng. Tuy nhi\u00ean, \u0111i\u1ec3m tr\u1eeb c\u1ee7a <strong>Dell Latitude 7320 Detachable review<\/strong> m\u00e0 kh\u00f4ng \u00edt ng\u01b0\u1eddi d\u00f9ng c\u00f3 th\u1ec3 nh\u1eadn ra l\u00e0 vi\u1ec7c m\u00e1y kh\u00f4ng \u0111\u01b0\u1ee3c t\u00edch h\u1ee3p c\u1ed5ng USB Type-A.<\/p><h2>Th\u1eddi l\u01b0\u1ee3ng s\u1eed d\u1ee5ng pin<\/h2><img style=\"width: [object Object]; height: [object Object]; object-fit: [object Object]; display: [object Object]\" src=\"https:\/\/media-api-beta.thinkpro.vn\/media\/social\/articles\/2022\/10\/10\/dell-latitude-7320-detachable-thinkpro-10.png\" alt=\"review-pin-12\" fullscreen=\"false\" description=\"Dell Latitude 7320 Detachable \u0111\u01b0\u1ee3c trang b\u1ecb vi\u00ean pin c\u00f3 dung l\u01b0\u1ee3ng 40Whr\"><p style=\"text-align: justify\"><strong>Dell Latitude 7320 Detachable review<\/strong> \u0111\u01b0\u1ee3c trang b\u1ecb vi\u00ean pin c\u00f3 dung l\u01b0\u1ee3ng <strong>40Whr<\/strong>. Tr\u1ea3i nghi\u1ec7m th\u1ef1c t\u1ebf, m\u00e1y c\u00f3 th\u1ec3 tr\u1ee5 \u0111\u01b0\u1ee3c h\u01a1n 9 ti\u1ebfng \u0111\u1ed3ng h\u1ed3. Ph\u1ea3i th\u1eeba nh\u1eadn r\u1eb1ng, \u0111\u00e2y l\u00e0 con s\u1ed1 t\u01b0\u01a1ng \u0111\u1ed1i \u1ea5n t\u01b0\u1ee3ng \u0111\u1ed1i v\u1edbi m\u1ed9t chi\u1ebfc m\u00e1y c\u00f3 k\u00edch th\u01b0\u1edbc si\u00eau m\u1ecfng nh\u1eb9 nh\u01b0 Latitude 7320 Detachable.<\/p><h2>Dell Latitude 7320 Detachable s\u1ebd ph\u00f9 h\u1ee3p cho ai?<\/h2><p style=\"text-align: justify\">Kh\u00e1c h\u1eb3n v\u1edbi nh\u1eefng g\u00ec m\u00e0 ch\u00fang ta v\u1eabn ngh\u0129 v\u1ec1 Dell Latitude. Dell Latitude 7320 Detachable g\u00e2y \u1ea5n t\u01b0\u1ee3ng v\u1edbi ng\u01b0\u1eddi d\u00f9ng b\u1eb1ng m\u1ed9t cu\u1ed9c \u201cl\u1ed9t x\u00e1c\u201d ngo\u1ea1n m\u1ee5c v\u1ec1 thi\u1ebft k\u1ebf. Kh\u00f4ng c\u00f2n l\u00e0 nh\u1eefng n\u00e9t th\u00f4 s\u01a1, <strong>Dell Latitude 7320 2 in 1 <\/strong>s\u1edf h\u1eefu v\u1ebb thanh l\u1ecbch, sang tr\u1ecdng. M\u00e0n h\u00ecnh s\u1eafc n\u00e9t \u0111i k\u00e8m s\u1ee9c m\u1ea1nh hi\u1ec7u n\u0103ng v\u00f4 c\u00f9ng \u1ea5n t\u01b0\u1ee3ng. Do \u0111\u00f3, \u0111\u00e2y s\u1ebd l\u00e0 s\u1ef1 l\u1ef1a ch\u1ecdn v\u00f4 c\u00f9ng tuy\u1ec7t v\u1eddi cho ng\u01b0\u1eddi d\u00f9ng l\u00e0 doanh nh\u00e2n hay d\u00e2n v\u0103n ph\u00f2ng.<\/p><p style=\"text-align: justify\">Hi\u1ec7n <strong>Dell Latitude 7320 Detachable gi\u00e1<\/strong> \u0111\u01b0\u1ee3c \u0111\u01b0\u1ee3c ThinkPro cung c\u1ea5p dao \u0111\u1ed9ng trong kho\u1ea3ng t\u1eeb 18 - 25 tri\u1ec7u ( t\u00f9y t\u1eebng phi\u00ean b\u1ea3n). \u0110i k\u00e8m v\u1edbi m\u1ee9c gi\u00e1 h\u1ea5p d\u1eabn n\u00e0y l\u00e0 v\u00f4 v\u00e0n nh\u1eefng ch\u00ednh s\u00e1ch \u01b0u \u0111\u00e3i. C\u1ee5 th\u1ec3 nh\u01b0 n\u00e0o, h\u00e3y tham kh\u1ea3o tr\u1ef1c ti\u1ebfp <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https:\/\/thinkpro.vn\/dell-latitude-7320-detachable-latitude7320d03no\"><strong>t\u1ea1i \u0111\u00e2y<\/strong><\/a> nh\u00e9.<\/p>"
+    },
+    "video_review": "",
+    "related_items": [],
+    "expected_return_date": null,
+    "canonical_url": "laptop\/dell-latitude-7320-detachable-4915",
+    "applied_channel": null,
+    "payment_promotions": [],
+    "seo_data": {
+      "title": "Dell Latitude 7320 Detachable i5 1140G7, FHD+ Touch\n 8GB, 256GB 05\/2023, Tr\u1ea3 g\u00f3p 0% | THINKPRO",
+      "description": "Dell Latitude 7320 Detachable  i5 1140G7, FHD+ Touch\n 8GB, 256GB, BH t\u1eadn t\u00e2m 12 th\u00e1ng, \u0110\u1ed5i m\u1edbi 30 ng\u00e0y, C\u1eadp nh\u1eadt m\u1edbi nh\u1ea5t 05\/2023, Tr\u1ea3 g\u00f3p 0%, Giao h\u00e0ng t\u1eadn nh\u00e0, Tr\u1ea3i nghi\u1ec7m t\u1ea1i h\u1ec7 th\u1ed1ng c\u1eeda h\u00e0ng THINKPRO.",
+      "tags": [
+        "Dell Latitude 7320 Detachable",
+        "Dell Latitude 7320 Detachable (K\u00e8m b\u00e0n ph\u00edm)",
+        "Dell Latitude 7320 Detachable THINKPRO",
+        "Dell Latitude 7320 Detachable (K\u00e8m b\u00e0n ph\u00edm) THINKPRO",
+        "Dell Latitude 7320 Detachable gi\u00e1 t\u1ed1t",
+        "Dell Latitude 7320 Detachable H\u00e0 N\u1ed9i",
+        "Dell Latitude 7320 Detachable (K\u00e8m b\u00e0n ph\u00edm) HCM"
+      ]
+    },
+    "sku_id": 4915,
+    "product_id": 1967,
+    "image": "media\/core\/products\/2022\/10\/2\/DELL-Latitude-7320-Detachable-H2.png",
+    "colors": [
+      {
+        "name": "\u0110en",
+        "code": "#000000"
+      }
+    ],
+    "name": "Dell Latitude 7320 Detachable (K\u00e8m b\u00e0n ph\u00edm)",
+    "price": 16990000,
+    "price_before_discount": 19990000,
+    "price_discount_percent": 15,
+    "specs": "CPU: Core i5 1140G7, 4 Cores<br>RAM: 8GB, 4267Mhz<br>\u1ed4 c\u1ee9ng: SSD 256GB<br>M\u00e0n h\u00ecnh: 13\", 1920 x 1280,  60Hz<br>Card: Intel Iris Xe Graphics",
+    "has_gift": true,
+    "status": 1,
+    "gift_amount": 410000,
+    "slug": "dell-latitude-7320-detachable-latitude7320d01no",
+    "shared_url": "laptop\/dell-latitude-7320-detachable-4915",
+    "category_id": 1,
+    "is_available": true,
+    "source_type": "NHAP_KHAU",
+    "bundled_items": [],
+    "retail_outlets": [
+      {
+        "id": 16,
+        "is_experience": false,
+        "is_available": true,
+        "is_available_in_province": true,
+        "estimate_delivery_day": 2
+      },
+      {
+        "id": 30,
+        "is_experience": true,
+        "is_available": true,
+        "is_available_in_province": true,
+        "estimate_delivery_day": 2
+      },
+      {
+        "id": 32,
+        "is_experience": true,
+        "is_available": true,
+        "is_available_in_province": true,
+        "estimate_delivery_day": 2
+      }
+    ]
+  }
+}

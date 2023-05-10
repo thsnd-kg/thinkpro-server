@@ -1,0 +1,770 @@
+{
+  "data": [
+    {
+      "sku_id": 6485,
+      "product_id": 2486,
+      "category_id": 1,
+      "shared_url": "laptop\/dell-inspiron-16-5630-6485",
+      "slug": "dell-inspiron-16-5630-inspirion16563001nf",
+      "image": "media\/core\/products\/2023\/3\/9\/in5630nt-cnb-00000ff090-sl.jpg",
+      "name": "Dell Inspiron 16 5630",
+      "brand": {
+        "id": 418,
+        "name": "Laptop Dell Inspiron 16",
+        "shared_url": "laptop-dell-inspiron-16",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Plantium Silver",
+          "code": "#c0c0c0"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 25,
+      "price_discount_percent": 25,
+      "price": 21490000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1340P, QHD+\n16GB, 512GB",
+        "Plantium Silver",
+        "M\u1edbi, Full box, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6309,
+      "product_id": 2484,
+      "category_id": 1,
+      "shared_url": "laptop\/dell-inspiron-14-5430-6309",
+      "slug": "dell-inspiron-14-5430-inspirion14543001ns",
+      "image": "media\/core\/products\/2023\/3\/9\/in5430nt-cnb-00000ff090-sl-2pc.jpg",
+      "name": "Dell Inspiron 14 5430",
+      "brand": {
+        "id": 416,
+        "name": "Laptop Dell Inspiron 14",
+        "shared_url": "laptop-dell-inspiron-14",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Platinum Silver",
+          "code": "#c0c0c0"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 24,
+      "price_discount_percent": 24,
+      "price": 21990000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1340P, QHD+\n16GB, 512GB",
+        "Platinum Silver",
+        "M\u1edbi, Sealed, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6308,
+      "product_id": 2483,
+      "category_id": 1,
+      "shared_url": "laptop\/dell-inspiron-13-5330-6308",
+      "slug": "dell-inspiron-13-5330-inspiron13553001ns",
+      "image": "media\/core\/products\/2023\/3\/22\/dell-inspiron-5330-thinkpro-1.png",
+      "name": "Dell Inspiron 13 5330",
+      "brand": {
+        "id": 415,
+        "name": "Laptop Dell Inspiron 13",
+        "shared_url": "laptop-dell-inspiron-13",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Platium Silver",
+          "code": "#ECECEC"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 24,
+      "price_discount_percent": 24,
+      "price": 21990000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1340P, QHD+\n16GB, 512GB",
+        "Platium Silver",
+        "M\u1edbi, Sealed, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6466,
+      "product_id": 2509,
+      "category_id": 1,
+      "shared_url": "laptop\/lenovo-thinkbook-16-g5-6466",
+      "slug": "lenovo-thinkbook-16-g5-thinkbook16g501ns",
+      "image": "media\/core\/products\/2023\/4\/18\/lenovo-thinkbook-16-g5-01-thinkpro-Woa.png",
+      "name": "Lenovo ThinkBook 16 G5+",
+      "brand": {
+        "id": 450,
+        "name": "Laptop Lenovo ThinkBook 16",
+        "shared_url": "laptop-lenovo-thinkbook-16",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Storm Grey",
+          "code": "#666666"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 17,
+      "price_discount_percent": 17,
+      "price": 24990000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "R7 7735H, 2.5K\n16GB, 512GB",
+        "Storm Grey",
+        "M\u1edbi, Sealed, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6465,
+      "product_id": 2508,
+      "category_id": 1,
+      "shared_url": "laptop\/lenovo-thinkbook-14-g5-6465",
+      "slug": "lenovo-thinkbook-14-g5-thinkbook14g501ns",
+      "image": "media\/core\/products\/2023\/4\/22\/lenovo-thinkbook-14-g5-thinkpro-olk.png",
+      "name": "Lenovo ThinkBook 14 G5+",
+      "brand": {
+        "id": 449,
+        "name": "Laptop Lenovo ThinkBook 14",
+        "shared_url": "laptop-lenovo-thinkbook-14",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Storm Grey",
+          "code": "#666666"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 17,
+      "price_discount_percent": 17,
+      "price": 24990000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 13500H, 2.8K \n16GB, 512GB",
+        "Storm Grey",
+        "M\u1edbi, Sealed, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 4915,
+      "product_id": 1967,
+      "category_id": 1,
+      "shared_url": "laptop\/dell-latitude-7320-detachable-4915",
+      "slug": "dell-latitude-7320-detachable-latitude7320d01no",
+      "image": "media\/core\/products\/2022\/9\/6\/DELL-Latitude-7320-Detachable-H2.jpeg",
+      "name": "Dell Latitude 7320 Detachable",
+      "brand": {
+        "id": 169,
+        "name": "Laptop Dell Latitude",
+        "shared_url": "laptop-dell-latitude",
+        "is_verify": true,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "\u0110en",
+          "code": "#000000"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 15,
+      "price_discount_percent": 15,
+      "price": 16990000,
+      "has_gift": true,
+      "gift_amount": 410000,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1140G7, FHD+ Touch\n 8GB, 256GB",
+        "\u0110en",
+        "Outlet, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6105,
+      "product_id": 1888,
+      "category_id": 1,
+      "shared_url": "laptop\/microsoft-surface-pro-9-6105",
+      "slug": "microsoft-surface-pro-9-only-device-01",
+      "image": "media\/core\/products\/2023\/3\/24\/microsoft-surface-pro-9-thinkpro-1.png",
+      "name": "Microsoft Surface Pro 9",
+      "brand": {
+        "id": 186,
+        "name": "Laptop Microsoft Surface Pro",
+        "shared_url": "laptop-microsoft-surface-pro",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Sapphire",
+          "code": "#066692"
+        },
+        {
+          "name": "Platinum",
+          "code": "#e5e4e2"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 21,
+      "price_discount_percent": 21,
+      "price": 22990000,
+      "has_gift": true,
+      "gift_amount": 8499000,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1235U, 3K 120Hz\n8GB, 128GB",
+        "Platinum",
+        "M\u1edbi, Full box, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 5235,
+      "product_id": 1675,
+      "category_id": 1,
+      "shared_url": "laptop\/dell-xps-13-9315-2022-5235",
+      "slug": "dell-xps-13-9315-2022-xps13931502no",
+      "image": "media\/core\/products\/2022\/6\/13\/xps139315 1.png",
+      "name": "Dell XPS 13 9315 (2022)",
+      "brand": {
+        "id": 412,
+        "name": "Laptop Dell XPS 13",
+        "shared_url": "laptop-dell-xps-13",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Sky",
+          "code": "#8BCBFF"
+        },
+        {
+          "name": "Umber",
+          "code": "#714141"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 27,
+      "price_discount_percent": 27,
+      "price": 21990000,
+      "has_gift": true,
+      "gift_amount": 410000,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1235U, FHD+\n8GB, 512GB",
+        "Sky",
+        "Outlet, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 5691,
+      "product_id": 1415,
+      "category_id": 1,
+      "shared_url": "laptop\/lenovo-thinkpad-x1-nano-gen-2-5691",
+      "slug": "lenovo-thinkpad-x1-nano-gen-2-thinkpadx1ng204ns",
+      "image": "media\/core\/products\/2022\/1\/15\/Lenovo_ThinkPad_X1_Nano_Gen_2.png",
+      "name": "Lenovo ThinkPad X1 Nano Gen 2",
+      "brand": {
+        "id": 170,
+        "name": "Laptop Lenovo ThinkPad",
+        "shared_url": "laptop-lenovo-thinkpad",
+        "is_verify": true,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Black",
+          "code": "#000000"
+        },
+        {
+          "name": "Matte Black",
+          "code": "#383838"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 17,
+      "price_discount_percent": 17,
+      "price": 34990000,
+      "has_gift": true,
+      "gift_amount": 410000,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1240P\n16GB, 512GB",
+        "Black",
+        "M\u1edbi, Sealed, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6092,
+      "product_id": 1409,
+      "category_id": 1,
+      "shared_url": "laptop\/dell-xps-13-plus-9320-6092",
+      "slug": "dell-xps-13-plus-9320-xps932009no",
+      "image": "media\/core\/products\/2022\/5\/9\/xps 13 plus 9320 3.png",
+      "name": "Dell XPS 13 Plus 9320",
+      "brand": {
+        "id": 412,
+        "name": "Laptop Dell XPS 13",
+        "shared_url": "laptop-dell-xps-13",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Plantium Silver",
+          "code": "#c0c0c0"
+        },
+        {
+          "name": "Platium Silver",
+          "code": "#ECECEC"
+        },
+        {
+          "name": "Frosted Black",
+          "code": "#363636"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 21,
+      "price_discount_percent": 21,
+      "price": 29990000,
+      "has_gift": true,
+      "gift_amount": 410000,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1240P, FHD+\n16GB, 512GB",
+        "Plantium Silver",
+        "Outlet, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6489,
+      "product_id": 1412,
+      "category_id": 1,
+      "shared_url": "laptop\/lenovo-thinkpad-x1-carbon-gen-10-6489",
+      "slug": "lenovo-thinkpad-x1-carbon-gen-10-thinkpadx1cg1010no",
+      "image": "media\/core\/products\/2022\/9\/30\/Lenovo-ThinkPad-X1-Carbon-Gen-10-thinkpro-01.jpeg",
+      "name": "Lenovo ThinkPad X1 Carbon Gen 10",
+      "brand": {
+        "id": 170,
+        "name": "Laptop Lenovo ThinkPad",
+        "shared_url": "laptop-lenovo-thinkpad",
+        "is_verify": true,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Black",
+          "code": "#000000"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 10,
+      "price_discount_percent": 10,
+      "price": 26990000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1240P. FHD+\n8GB, 256GB",
+        "Black",
+        "Outlet, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6354,
+      "product_id": 2075,
+      "category_id": 1,
+      "shared_url": "laptop\/lenovo-legion-5-pro-2022-6354",
+      "slug": "lenovo-legion-5-pro-2022-legion5pro2206nu",
+      "image": "media\/core\/products\/2023\/3\/22\/lenovo-legion-5-pro-2022-thinkpro-001.png",
+      "name": "Lenovo Legion 5 Pro 2022",
+      "brand": {
+        "id": 320,
+        "name": "Laptop Lenovo Legion",
+        "shared_url": "laptop-lenovo-legion",
+        "is_verify": true,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Storm Grey",
+          "code": "#666666"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 22,
+      "price_discount_percent": 22,
+      "price": 28990000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i7 12700H, RTX3050Ti, QHD+ 165Hz\n16GB, 512GB",
+        "Storm Grey",
+        "Used, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6318,
+      "product_id": 2007,
+      "category_id": 1,
+      "shared_url": "laptop\/lg-gram-17-2022-nhap-khau-6318",
+      "slug": "lg-gram-17-2022-nhap-khau-gram1722n02nu",
+      "image": "media\/core\/products\/2023\/3\/22\/lg-gram-17-2022-thinkpro-01.png",
+      "name": "LG Gram 17 2022 (Nh\u1eadp kh\u1ea9u)",
+      "brand": {
+        "id": 436,
+        "name": "Laptop LG Gram 17",
+        "shared_url": "laptop-lg-gram-17",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Shadow Grey",
+          "code": "#8D8D8D"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 28,
+      "price_discount_percent": 28,
+      "price": 23690000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i7 1260P, QHD+\n16GB, 512GB",
+        "Shadow Grey",
+        "Used, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 4328,
+      "product_id": 1702,
+      "category_id": 1,
+      "shared_url": "laptop\/lenovo-thinkpad-e14-gen-4-intel-4328",
+      "slug": "thinkpad-e14-gen-4-intel-thinkpade14g4i01ns",
+      "image": "media\/core\/products\/2023\/3\/22\/lenovo-thinkpad-e14-gen-4-thinkpro-0001.png",
+      "name": "Lenovo ThinkPad E14 Gen 4 (Intel)",
+      "brand": {
+        "id": 170,
+        "name": "Laptop Lenovo ThinkPad",
+        "shared_url": "laptop-lenovo-thinkpad",
+        "is_verify": true,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "\u0110en",
+          "code": "#000000"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 8,
+      "price_discount_percent": 8,
+      "price": 21990000,
+      "has_gift": true,
+      "gift_amount": 410000,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1240P, FHD\n8GB, 512GB",
+        "\u0110en",
+        "M\u1edbi, Sealed, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6294,
+      "product_id": 1908,
+      "category_id": 1,
+      "shared_url": "laptop\/lenovo-thinkpad-t14s-gen-2-intel-6294",
+      "slug": "lenovo-thinkpad-t14s-gen-2-intel-vo-kim-loai",
+      "image": "media\/core\/products\/2022\/8\/26\/T14sG2is 2.jpg",
+      "name": "Lenovo ThinkPad T14s Gen 2 (Intel)",
+      "brand": {
+        "id": 170,
+        "name": "Laptop Lenovo ThinkPad",
+        "shared_url": "laptop-lenovo-thinkpad",
+        "is_verify": true,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Platium Silver",
+          "code": "#ECECEC"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 12,
+      "price_discount_percent": 12,
+      "price": 21990000,
+      "has_gift": true,
+      "gift_amount": 149000,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i7 1165G7, FHD\n16GB, 512GB",
+        "Platium Silver",
+        "Used, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6258,
+      "product_id": 1954,
+      "category_id": 1,
+      "shared_url": "laptop\/lg-gram-16-2-in-1-2022-6258",
+      "slug": "lg-gram-16-2-in-1-2022-lggram162201nu",
+      "image": "media\/core\/products\/2023\/3\/22\/lg-gram-16-2-in-1-2022-thinkpro-1.png",
+      "name": "LG Gram 16 2 in 1 2022",
+      "brand": {
+        "id": 435,
+        "name": "Laptop LG Gram 16",
+        "shared_url": "laptop-lg-gram-16",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Black",
+          "code": "#000000"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 15,
+      "price_discount_percent": 15,
+      "price": 25390000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i7 1260P, QHD+\n16GB, 512GB",
+        "Black",
+        "Used, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6331,
+      "product_id": 1602,
+      "category_id": 1,
+      "shared_url": "laptop\/hp-probook-440-g8-6331",
+      "slug": "hp-probook-440-g8-probook440g801nu",
+      "image": "media\/core\/products\/2022\/9\/30\/hp-probook-440-g8-thinkpro-01.jpg",
+      "name": "HP ProBook 440 G8",
+      "brand": {
+        "id": 342,
+        "name": "Laptop HP ProBook",
+        "shared_url": "laptop-hp-probook",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Sliver",
+          "code": "#c0c0c0"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 18,
+      "price_discount_percent": 18,
+      "price": 12690000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i5 1135G7, FHD\n8GB, 256GB",
+        "Sliver",
+        "Used, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 3589,
+      "product_id": 1411,
+      "category_id": 1,
+      "shared_url": "laptop\/lenovo-thinkbook-16-g4-3589",
+      "slug": "lenovo-thinkbook-16-g4-thinkbook16g4i01ns",
+      "image": "media\/core\/products\/2022\/1\/15\/Thinkbook_14_Artic_Grey_IRcamera.png",
+      "name": "Lenovo ThinkBook 16 G4+",
+      "brand": {
+        "id": 450,
+        "name": "Laptop Lenovo ThinkBook 16",
+        "shared_url": "laptop-lenovo-thinkbook-16",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Mineral Gray",
+          "code": "#8C8C8C"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 12,
+      "price_discount_percent": 12,
+      "price": 21990000,
+      "has_gift": true,
+      "gift_amount": 410000,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "R5 6600H, QHD+\n16GB, 512GB",
+        "Mineral Gray",
+        "M\u1edbi, Sealed, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 6400,
+      "product_id": 1018,
+      "category_id": 1,
+      "shared_url": "laptop\/dell-precision-15-5560-6400",
+      "slug": "dell-precision-15-5560-precision556008nu",
+      "image": "media\/core\/products\/2022\/10\/1\/dell-precision-5560-thinkpro-1.png",
+      "name": "Dell Precision 15 5560",
+      "brand": {
+        "id": 1,
+        "name": "Laptop Dell",
+        "shared_url": "laptop-dell",
+        "is_verify": true,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Mineral Gray",
+          "code": "#8C8C8C"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 21,
+      "price_discount_percent": 21,
+      "price": 36990000,
+      "has_gift": false,
+      "gift_amount": 0,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i7 11850H, RTX A2000, FHD+\n 16GB, 1024GB",
+        "Mineral Gray",
+        "Used, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    },
+    {
+      "sku_id": 4355,
+      "product_id": 1149,
+      "category_id": 1,
+      "shared_url": "laptop\/new-inspiron-16-plus-7610-4355",
+      "slug": "new-inspiron-16-plus-laptop-7610-inspiron16plus03nu",
+      "image": "media\/core\/products\/2022\/10\/1\/new-inspiron-16-plus-laptop-7610-thinkpro-1.png",
+      "name": "Dell Inspiron 16 Plus Laptop (7610)",
+      "brand": {
+        "id": 418,
+        "name": "Laptop Dell Inspiron 16",
+        "shared_url": "laptop-dell-inspiron-16",
+        "is_verify": false,
+        "is_premium": false
+      },
+      "colors": [
+        {
+          "name": "Mist Blue",
+          "code": "#7ec0ee"
+        }
+      ],
+      "is_flash_sale": false,
+      "price_before_discount": 27,
+      "price_discount_percent": 27,
+      "price": 19790000,
+      "has_gift": true,
+      "gift_amount": 410000,
+      "status": 1,
+      "specs": null,
+      "label_type": "",
+      "model_value": [
+        "i7 11800H. 3K+\n16GB, 1TB",
+        "Mist Blue",
+        "Used, Nh\u1eadp kh\u1ea9u"
+      ],
+      "applied_channel": null
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "per_page": 20,
+    "last_page": 8,
+    "total": 149
+  }
+}

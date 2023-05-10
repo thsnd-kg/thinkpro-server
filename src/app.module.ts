@@ -13,6 +13,7 @@ import { SeedModule } from './shared/seed.module';
 import { BrandModule } from './modules/brand/brand.module';
 import { FileModule } from './modules/file/file.module';
 import { CloudinaryModule } from './modules/cloudinary/cloudinary.module';
+import { ProductModule } from './modules/product/product.module';
 
 @Module({
   imports: [
@@ -29,6 +30,7 @@ import { CloudinaryModule } from './modules/cloudinary/cloudinary.module';
     BrandModule,
     FileModule,
     CloudinaryModule,
+    ProductModule,
 
   ],
   providers: [
