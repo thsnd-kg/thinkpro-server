@@ -16,6 +16,7 @@ export class CategorySeeder {
     const jsonData = JSON.parse(jsonString);
     const categories = jsonData.map((json) => {
       const category: CreateCategoryDto = {
+        id: json.id,
         description: json.description,
         icon: json.icon,
         name: json.name,
