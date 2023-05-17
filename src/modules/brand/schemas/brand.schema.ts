@@ -5,7 +5,7 @@ export type BrandDocument = HydratedDocument<Brand>;
 
 @Schema()
 export class Brand {
-  @Prop({ required: false })
+  @Prop({ required: false, unique: true })
   id?: number;
 
   @Prop({ required: true })

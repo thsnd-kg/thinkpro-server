@@ -1,5 +1,5 @@
-{
-  "data": [
+
+ [
     {
       "sku_id": 6485,
       "product_id": 2486,
@@ -760,11 +760,4 @@
       ],
       "applied_channel": null
     }
-  ],
-  "meta": {
-    "current_page": 1,
-    "per_page": 20,
-    "last_page": 8,
-    "total": 149
-  }
-}
+  ]

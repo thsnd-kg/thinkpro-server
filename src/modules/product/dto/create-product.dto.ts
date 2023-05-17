@@ -1,10 +1,7 @@
-import { Brand } from '../../brand/schemas/brand.schema';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsNumber, IsOptional, IsString, ValidateNested } from 'class-validator';
 import { IsLowerCaseKebabCase } from '../../../validations/is-lower-kebab-case.validation';
 import { Type } from 'class-transformer';
-import { Color } from '../schemas/color.schema';
-import { CreateBrandDto } from '../../brand/dto/create-brand.dto';
 import { CreateColorDto } from './create-color.dto';
 
 export class CreateProductDto {
@@ -53,5 +50,5 @@ export class CreateProductDto {
 
   @IsArray()
   @ApiProperty({ required: false, type: [String] })
-  model_value: string[];
+  modelValues: string[];
 }

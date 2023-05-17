@@ -1,9 +1,16 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { HydratedDocument } from 'mongoose';
 import { Brand, BrandSchema } from '../../brand/schemas/brand.schema';
-import { Color, ColorSchema } from './color.schema';
 
 export type ProductDocument = HydratedDocument<Product>;
+
+export class Color {
+
+  name: string;
+
+  code: string;
+}
+
 
 @Schema()
 export class Product {
@@ -28,18 +35,17 @@ export class Product {
   @Prop()
   name: string;
 
-  @Prop({ type: BrandSchema })
+  @Prop({ type: BrandSchema, _id: false })
   brand: Brand;
 
-  @Prop({ type: [ColorSchema], required: true })
+  @Prop({ type: [{ name: String, code: String }], required: true, _id: false})
   colors: Color[];
 
   @Prop()
   price: number;
 
   @Prop({ type: [String] })
-  modelValue: string[];
-
+  modelValues: string[];
 }
 
 export const ProductSchema = SchemaFactory.createForClass(Product);

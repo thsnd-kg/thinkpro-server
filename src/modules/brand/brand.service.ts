@@ -26,7 +26,7 @@ export class BrandService {
       .exec();
 
     if (!brand) {
-      throw new NotFoundException('Brand not found');
+      throw new NotFoundException(`Brand with identifier ${identifier}not found`);
     }
 
     return brand.toObject();

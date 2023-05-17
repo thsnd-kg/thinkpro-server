@@ -29,7 +29,7 @@ export class BrandSeeder {
       };
       return this.brandService.createBrand(brand);
     });
-    console.log('Seeding categories successfully!!');
+    console.log('Seeding brands successfully!!');
 
     return Promise.all(brands);
   }
