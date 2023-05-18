@@ -5,6 +5,9 @@ export type BrandDocument = HydratedDocument<Brand>;
 
 @Schema()
 export class Brand {
+  @Prop({ required: false, unique: true })
+  id?: number;
+
   @Prop({ required: true })
   description: string;
 

@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import { CreateCategoryDto } from './dto/create-category.dto';
 import { Category, CategoryDocument } from './schemas/category.schema';
 import { InjectModel } from '@nestjs/mongoose';
@@ -20,9 +20,16 @@ export class CategoryService {
     return this.categoryModel.find();
   }
 
-  async getCategoryBySlugOrId(identifier: string): Promise<Category> {
+  async getCategoryBySlugOrId(identifier: string | number): Promise<Category> {
+
+    if (!identifier) throw new BadRequestException('Identifier is required');
+
+    const filter = typeof identifier === 'string'
+      ? { slug: identifier }
+      : { id: identifier };
+
     const category: CategoryDocument = await this.categoryModel
-      .findOne({ $or: [{ slug: identifier }, { _id: identifier }] })
+      .findOne(filter)
       .exec();
 
     if (!category) {

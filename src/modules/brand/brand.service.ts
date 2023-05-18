@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { CreateBrandDto } from './dto/create-brand.dto';
 import { Brand, BrandDocument } from './schemas/brand.schema';
@@ -9,22 +9,29 @@ export class BrandService {
   constructor(
     @InjectModel(Brand.name)
     private readonly brandModel: Model<BrandDocument>,
-  ) {}
+  ) {
+  }
 
   async getBrands(): Promise<Brand[]> {
     return this.brandModel.find().exec();
   }
 
-  async getBrandBySlugOrId(identifier: string): Promise<Brand> {
+  async getBrandBySlugOrId(identifier: string | number): Promise<Brand> {
+    if (!identifier) throw new BadRequestException('Identifier is required');
+
+    const filter = typeof identifier === 'string'
+      ? { $or: [{ slug: identifier }, { _id: identifier }] }
+      : { id: identifier };
+
     const brand: BrandDocument = await this.brandModel
-      .findOne({ $or: [{ slug: identifier }, { _id: identifier }] })
+      .findOne(filter)
       .exec();
 
     if (!brand) {
-      throw new Error('Brand not found');
+      throw new NotFoundException(`Brand with identifier ${ identifier } not found`);
     }
 
-    return brand;
+    return brand.toObject();
   }
 
   async createBrand(createBrandDto: CreateBrandDto): Promise<Brand> {

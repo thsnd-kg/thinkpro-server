@@ -1,8 +1,11 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsNotEmpty, IsOptional } from 'class-validator';
+import { IsNotEmpty, IsNumber, IsOptional } from 'class-validator';
 import { IsLowerCaseKebabCase } from '../../../validations/is-lower-kebab-case.validation';
 
 export class CreateBrandDto {
+  @IsNumber()
+  @ApiProperty({ required: false, type: Number })
+  id?: number;
 
   @IsNotEmpty()
   @ApiProperty({ required: true })

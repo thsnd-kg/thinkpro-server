@@ -13,8 +13,7 @@ export class IsLowerCaseKebabCaseConstraint implements ValidatorConstraintInterf
       return false;
     }
 
-    // Check if the string follows kebab-case naming convention
-    const regex = /^[a-z]+(-[a-z]+)*$/;
+    const regex = /^[a-z]+(-[a-z0-9]+)*$/;
     return regex.test(value);
   }
 

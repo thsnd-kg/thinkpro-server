@@ -5,6 +5,9 @@ export type CategoryDocument = HydratedDocument<Category>;
 
 @Schema()
 export class Category {
+  @Prop({ required: false, type: Number, unique: true })
+  id?: number;
+
   @Prop({ required: true })
   description: string;
 
