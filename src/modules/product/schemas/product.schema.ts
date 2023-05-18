@@ -11,7 +11,6 @@ export class Color {
   code: string;
 }
 
-
 @Schema()
 export class Product {
   @Prop()
@@ -38,7 +37,7 @@ export class Product {
   @Prop({ type: BrandSchema, _id: false })
   brand: Brand;
 
-  @Prop({ type: [{ name: String, code: String }], required: true, _id: false})
+  @Prop({ type: [{ name: String, code: String }], required: true, _id: false })
   colors: Color[];
 
   @Prop()
