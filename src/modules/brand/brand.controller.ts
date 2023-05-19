@@ -4,6 +4,7 @@ import { Body, Controller, Get, Param, Post } from '@nestjs/common';
 import { CreateCategoryDto } from '../category/dto/create-category.dto';
 import { BrandService } from './brand.service';
 import { Brand } from './schemas/brand.schema';
+import { CreateBrandDto } from './dto/create-brand.dto';
 
 @ApiBearerAuth(API_BEARER_AUTH)
 @ApiTags('brands')
@@ -21,8 +22,13 @@ export class BrandController {
     return this.brandService.getBrandBySlugOrId(identifier);
   }
   @Post()
-  createBrand(@Body() createCategoryDto: CreateCategoryDto): Promise<Brand> {
-    return this.brandService.createBrand(createCategoryDto);
+  createBrand(@Body() creatBrandDto: CreateBrandDto): Promise<Brand> {
+    return this.brandService.createBrand(creatBrandDto);
+  }
+
+  @Get('/details/:slug')
+  getDetailBrandBySlug(@Param('slug') slug: string): Promise<any> {
+    return this.brandService.getDetailBrandBySlug(slug);
   }
 
 }

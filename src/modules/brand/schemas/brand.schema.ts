@@ -22,6 +22,9 @@ export class Brand {
 
   @Prop({ required: true })
   slug: string;
+
+  @Prop({ required: false })
+  parentId: number | null;
 }
 
 export const BrandSchema = SchemaFactory.createForClass(Brand);

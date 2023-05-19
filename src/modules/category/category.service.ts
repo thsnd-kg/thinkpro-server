@@ -3,13 +3,18 @@ import { CreateCategoryDto } from './dto/create-category.dto';
 import { Category, CategoryDocument } from './schemas/category.schema';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
+import { Brand, BrandDocument } from '../brand/schemas/brand.schema';
+import { BrandService } from '../brand/brand.service';
+import { CategoryResponseDto } from './dto/category-response.dto';
 
 @Injectable()
 export class CategoryService {
 
   constructor(
     @InjectModel(Category.name)
-    private categoryModel: Model<CategoryDocument>) {
+    private categoryModel: Model<CategoryDocument>,
+    private brandService: BrandService,
+  ) {
   }
 
   createCategory(createCategoryDto: CreateCategoryDto): Promise<Category> {
@@ -20,8 +25,7 @@ export class CategoryService {
     return this.categoryModel.find();
   }
 
-  async getCategoryBySlugOrId(identifier: string | number): Promise<Category> {
-
+  async getCategoryBySlugOrId(identifier: string | number): Promise<CategoryResponseDto> {
     if (!identifier) throw new BadRequestException('Identifier is required');
 
     const filter = typeof identifier === 'string'
@@ -36,10 +40,15 @@ export class CategoryService {
       throw new Error('Category not found');
     }
 
-    return category;
+    const brands = await this.brandService.getBrandsInCategory(category.slug);
+
+    return {
+      ...category.toObject(),
+      brands,
+    };
   }
 
   async deleteAll(): Promise<void> {
-    await this.categoryModel.deleteMany({})
+    await this.categoryModel.deleteMany({});
   }
 }

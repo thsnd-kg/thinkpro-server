@@ -41,4 +41,34 @@ export class BrandService {
   async deleteAll(): Promise<void> {
     await this.brandModel.deleteMany({});
   }
+
+  async getDetailBrandBySlug(slug: string) {
+    const parentBrand: BrandDocument = await this.brandModel
+      .findOne({
+        $or: [{ slug }, { sharedUrl: slug }],
+      })
+      .exec();
+
+    const subBrands: BrandDocument[] = await this.brandModel
+      .find({
+        parentId: parentBrand.id,
+      })
+      .exec();
+
+    return { ...parentBrand.toObject(), subBrands };
+  }
+
+  async getBrandsInCategory(slug: string): Promise<Brand[]> {
+    console.log(slug);
+    const brands: BrandDocument[] = await this.brandModel
+      .find({
+        parentId: null,
+        sharedUrl: {
+          $regex: new RegExp(slug, 'i'),
+        },
+      })
+      .exec();
+    console.log(brands);
+    return brands.map((brand) => brand.toObject());
+  }
 }
