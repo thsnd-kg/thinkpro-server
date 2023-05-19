@@ -14,7 +14,7 @@ async function bootstrap(): Promise<void> {
   configSwagger(app);
 
   // pass reflector to Nest.js global guard
-  app.useGlobalGuards(new JwtAuthGuard(reflector));
+  // app.useGlobalGuards(new JwtAuthGuard(reflector));
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true, // dont allow body contain attribute didn't define in dto

@@ -28,4 +28,8 @@ export class CreateBrandDto {
   @IsLowerCaseKebabCase({ message: 'The slug must be in kebab-case and all lowercase' })
   @ApiProperty({ required: true })
   slug: string;
+
+  @IsNumber()
+  @ApiProperty({ required: false, type: Number })
+  parentId: number | null;
 }

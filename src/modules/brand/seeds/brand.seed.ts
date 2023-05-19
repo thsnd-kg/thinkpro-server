@@ -26,6 +26,7 @@ export class BrandSeeder {
         name: json.name,
         sharedUrl: json.shared_url,
         slug: json.slug,
+        parentId: json.parent_id ?? null,
       };
       return this.brandService.createBrand(brand);
     });
