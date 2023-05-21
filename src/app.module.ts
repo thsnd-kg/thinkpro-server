@@ -9,11 +9,12 @@ import { TransformInterceptor } from './common/interceptors/transform.intercepto
 import { mongooseConfig } from './config/mongoose.config';
 import { CategoryModule } from './modules/category/category.module';
 import configurations from './config';
-import { SeedModule } from './shared/seed.module';
+import { SeedModule } from './modules/seeder/seed.module';
 import { BrandModule } from './modules/brand/brand.module';
 import { FileModule } from './modules/file/file.module';
 import { CloudinaryModule } from './modules/cloudinary/cloudinary.module';
 import { ProductModule } from './modules/product/product.module';
+import { AppService } from './app.service';
 
 @Module({
   imports: [
@@ -42,6 +43,7 @@ import { ProductModule } from './modules/product/product.module';
       provide: APP_INTERCEPTOR,
       useClass: TransformInterceptor,
     },
+    AppService,
   ],
 })
 export class AppModule {

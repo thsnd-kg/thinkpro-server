@@ -19,7 +19,7 @@ services:
     container_name: mongodb
     image: mongo:${MONGODB_VERSION}
     ports:
-      - "${MONGODB_HOST_PORT}:27017"
+      - "${MONGODB_ROOT_PORT}:${MONGODB_ROOT_PORT}"
     networks:
       - mongo-compose-network
     volumes:
@@ -27,7 +27,7 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=${MONGODB_ROOT_USERNAME}
       - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_ROOT_PASSWORD}
-      - MONGODB_DATABASE=${MONGODB_DATABASE}
+      - MONGO_INITDB_DATABASE=${MONGODB_ROOT_DATABASE}
 
 networks:
   mongo-compose-network:
