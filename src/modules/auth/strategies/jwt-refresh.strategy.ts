@@ -11,11 +11,14 @@ import { JwtConfig } from '../../../config/jwt.config';
 export class JwtRefreshStrategy extends PassportStrategy(Strategy, 'jwt-refresh-token') {
   constructor(
     @Inject(JwtConfig.KEY)
-    private jwtConfig: ConfigType<typeof JwtConfig>) {
+    private jwtConfig: ConfigType<typeof JwtConfig>,
+  ) {
     super({
-      jwtFromRequest: ExtractJwt.fromExtractors([(request: Request): string => {
-        return request?.cookies?.[JWT_REFRESH_TOKEN_COOKIE_KEY];
-      }]),
+      jwtFromRequest: ExtractJwt.fromExtractors([
+        (request: Request): string => {
+          return request?.cookies?.[JWT_REFRESH_TOKEN_COOKIE_KEY];
+        },
+      ]),
       secretOrKey: jwtConfig.secretKey,
       ignoreExpiration: false,
     });

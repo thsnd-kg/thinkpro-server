@@ -11,8 +11,7 @@ export class SeedService {
     private readonly categorySeeder: CategorySeeder,
     private readonly productSeeder: ProductSeeder,
     private readonly userService: UserService,
-  ) {
-  }
+  ) {}
 
   async seed(): Promise<any> {
     const shoudSeed = await this.shouldSeed();

@@ -1,9 +1,9 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
-import { ProductDetail, ProductDetailDocument } from './schemas/product-detail.schema';
 import { Model } from 'mongoose';
+import { InjectModel } from '@nestjs/mongoose';
+import { ProductDetail, ProductDetailDocument } from './schemas/product-detail.schema';
 import { CreateProductDetailDto } from './dto/create-product-detail.dto';
 import { Product, ProductDocument } from './schemas/product.schema';
-import { InjectModel } from '@nestjs/mongoose';
 
 @Injectable()
 export class ProductDetailService {
@@ -11,12 +11,17 @@ export class ProductDetailService {
     @InjectModel(ProductDetail.name)
     private readonly productDetailModel: Model<ProductDetailDocument>,
     @InjectModel(Product.name)
-    private readonly productModel: Model<ProductDocument>) {
-  }
+    private readonly productModel: Model<ProductDocument>,
+  ) {}
 
-  async createProductDetail(createProductDetailDto: CreateProductDetailDto): Promise<ProductDetail> {
+  async createProductDetail(
+    createProductDetailDto: CreateProductDetailDto,
+  ): Promise<ProductDetail> {
     const createdProductDetail = new this.productDetailModel(createProductDetailDto);
-    const product = await this.productModel.findOne({ productId: createProductDetailDto.productId });
+
+    const product = await this.productModel.findOne({
+      productId: createProductDetailDto.productId,
+    });
     if (!product) {
       throw new NotFoundException('Product not found');
     }
@@ -25,11 +30,11 @@ export class ProductDetailService {
     return createdProductDetail.save();
   }
 
-  async getProductDetailBySKU(sku: string): Promise<ProductDetail> {
-    if (!sku) {
+  async getProductDetailBySkuId(skuId: number): Promise<ProductDetail> {
+    if (!skuId) {
       throw new BadRequestException('Slug is required');
     }
-    const product = await this.productDetailModel.findOne({ SKU: sku }).exec();
+    const product = await this.productDetailModel.findOne({ 'model.skuId': skuId }).exec();
     if (!product) {
       throw new NotFoundException('Product not found');
     }

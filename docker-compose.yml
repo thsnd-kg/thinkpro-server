@@ -6,16 +6,16 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-        - "${PORT}:${PORT}"
+      - "${PORT}:${PORT}"
     env_file:
       - .env
     networks:
       - mongo-compose-network
     depends_on:
-      - mongodb
+      - mongo
 
 
-  mongodb:
+  mongo:
     container_name: mongodb
     image: mongo:${MONGODB_VERSION}
     ports:

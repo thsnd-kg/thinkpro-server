@@ -33,5 +33,4 @@ export class BrandController {
   getDetailBrandBySlug(@Param('slug') slug: string): Promise<any> {
     return this.brandService.getDetailBrandBySlug(slug);
   }
-
 }

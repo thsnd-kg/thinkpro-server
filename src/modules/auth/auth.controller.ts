@@ -9,12 +9,14 @@ import { CurrentUser, Public } from '../../common/decorators';
 @ApiTags('auth')
 @Controller('auth')
 export class AuthController {
-  constructor(private authService: AuthService) {
-  }
+  constructor(private authService: AuthService) {}
 
   @Public()
   @Post('login')
-  async login(@Body() loginRequest: LoginDto, @Res({ passthrough: true }) response: Response): Promise<LoginResponse> {
+  async login(
+    @Body() loginRequest: LoginDto,
+    @Res({ passthrough: true }) response: Response,
+  ): Promise<LoginResponse> {
     const auth = await this.authService.login(loginRequest);
     const cookie = await this.authService.getCookieRefreshToken(loginRequest.username);
     response.setHeader('Set-Cookie', cookie);

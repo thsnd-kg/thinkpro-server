@@ -8,10 +8,7 @@ import * as process from 'process';
 
 @Injectable()
 export class CategorySeeder {
-  constructor(
-    private readonly categoryService: CategoryService,
-  ) {
-  }
+  constructor(private readonly categoryService: CategoryService) {}
 
   @Command({ command: 'seed:categories', describe: 'create categories' })
   async seed(): Promise<any> {
@@ -19,7 +16,7 @@ export class CategorySeeder {
 
     const jsonString = fs.readFileSync(path.join(process.cwd(), 'data/category.json'), 'utf8');
     const jsonData = JSON.parse(jsonString);
-    const categories = jsonData.map((json) => {
+    const categories = jsonData.map(json => {
       const category: CreateCategoryDto = {
         id: json.id,
         description: json.description,

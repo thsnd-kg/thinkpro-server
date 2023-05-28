@@ -9,10 +9,7 @@ export class ResponseObject<T> {
 
   statusCode: number;
 
-  static success<T>(
-    data?: T,
-    status: HttpStatus = HttpStatus.OK,
-  ): ResponseObject<T> {
+  static success<T>(data?: T, status: HttpStatus = HttpStatus.OK): ResponseObject<T> {
     return {
       data,
       statusCode: status,

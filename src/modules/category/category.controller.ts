@@ -27,5 +27,4 @@ export class CategoryController {
   createCategory(@Body() createCategoryDto: CreateCategoryDto): Promise<Category> {
     return this.categoryService.createCategory(createCategoryDto);
   }
-
 }

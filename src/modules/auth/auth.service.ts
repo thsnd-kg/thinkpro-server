@@ -16,9 +16,7 @@ export class AuthService {
     private readonly jwtConfig: ConfigType<typeof JwtConfig>,
     private userService: UserService,
     private jwtService: JwtService,
-  ) {
-  }
-
+  ) {}
 
   async validateByUsernameAndPassword(username: string, pass: string): Promise<any> {
     const user = await this.userService.findOneByUsername(username);
@@ -74,12 +72,11 @@ export class AuthService {
     return await this.jwtService.signAsync(payload, { expiresIn: expiredIn });
   }
 
-  async register(registerRequest: RegisterDto):Promise<LoginResponse> {
+  async register(registerRequest: RegisterDto): Promise<LoginResponse> {
     const { username, password } = registerRequest;
 
     const exist = await this.userService.existByUsername(username);
     if (exist) throw new BadRequestException(`${username} is registered`);
-
 
     await this.userService.create({ username, password });
 

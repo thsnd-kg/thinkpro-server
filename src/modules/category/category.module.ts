@@ -6,7 +6,10 @@ import { Category, CategorySchema } from './schemas/category.schema';
 import { BrandModule } from '../brand/brand.module';
 
 @Module({
-  imports: [MongooseModule.forFeature([{ name: Category.name, schema: CategorySchema }]), BrandModule],
+  imports: [
+    MongooseModule.forFeature([{ name: Category.name, schema: CategorySchema }]),
+    BrandModule,
+  ],
   controllers: [CategoryController],
   providers: [CategoryService],
   exports: [CategoryService],

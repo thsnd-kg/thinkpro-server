@@ -5,7 +5,6 @@ import { Brand, BrandSchema } from '../../brand/schemas/brand.schema';
 export type ProductDocument = HydratedDocument<Product>;
 
 export class Color {
-
   name: string;
 
   code: string;

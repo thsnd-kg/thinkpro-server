@@ -9,8 +9,8 @@ type Cloudinary = typeof Cloudinary;
 export class CloudinaryService {
   constructor(
     @Inject(CLOUDINARY)
-    private readonly cloudinary: Cloudinary) {
-  }
+    private readonly cloudinary: Cloudinary,
+  ) {}
 
   async upload(file: Express.Multer.File): Promise<UploadApiResponse> {
     return new Promise((resolve, reject) => {

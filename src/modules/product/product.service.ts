@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { Product, ProductDocument } from './schemas/product.schema';
 import { Model } from 'mongoose';
-import { CreateProductDto } from './dto/create-product.dto';
 import { InjectModel } from '@nestjs/mongoose';
+import { Product, ProductDocument } from './schemas/product.schema';
+import { CreateProductDto } from './dto/create-product.dto';
 import { BrandService } from '../brand/brand.service';
 import { ProductFilter } from './dto/product-filter.dto';
 import { ProductQuery } from './interfaces/product-query.interface';
@@ -15,8 +15,7 @@ export class ProductService {
     private readonly productModel: Model<ProductDocument>,
     private readonly brandService: BrandService,
     private readonly categoryService: CategoryService,
-  ) {
-  }
+  ) {}
 
   async createProduct(createProductDto: CreateProductDto): Promise<Product> {
     const productCreated = new this.productModel(createProductDto);
@@ -32,19 +31,19 @@ export class ProductService {
   }
 
   async getProductsByFilter(filter: ProductFilter): Promise<Product[]> {
-    const { category, minPrice, maxPrice, currentPage, perPage } = filter;
-
+    const { brands, category, minPrice, maxPrice, currentPage, perPage } = filter;
     const query: ProductQuery = {};
 
     if (category) {
-      try {
-        const { id } = await this.categoryService.getCategoryBySlugOrId(category);
-        query.categoryId = id;
-      } catch (e) {
-        query['brand.slug'] = {
-          $regex: new RegExp(category, 'i'),
-        };
-      }
+      const { id } = await this.categoryService.getCategoryBySlugOrId(category);
+      query.categoryId = id;
+    }
+
+    if (brands && brands.length > 0) {
+      const regexs = brands.map((brand) => new RegExp(brand, 'i'));
+      query['brand.slug'] = {
+        $in: regexs,
+      };
     }
 
     if (minPrice !== undefined) {

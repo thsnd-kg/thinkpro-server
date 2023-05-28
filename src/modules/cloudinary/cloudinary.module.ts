@@ -4,7 +4,7 @@ import { v2 as cloudinary } from 'cloudinary';
 import {
   CloudinaryModuleAsyncOptions,
   CloudinaryModuleOptions,
-  CloudinaryModuleOptionsFactory
+  CloudinaryModuleOptionsFactory,
 } from './cloudinary-options.interface';
 import { CLOUDINARY, CLOUDINARY_MODULE_OPTIONS } from './cloudinary.constant';
 
@@ -39,9 +39,7 @@ export class CloudinaryModule {
     };
   }
 
-  private static createAsyncProviders(
-    options: CloudinaryModuleAsyncOptions,
-  ): Provider[] {
+  private static createAsyncProviders(options: CloudinaryModuleAsyncOptions): Provider[] {
     if (options.useClass) {
       return [
         this.createAsyncOptionsProvider(options),
@@ -55,9 +53,7 @@ export class CloudinaryModule {
     return [this.createAsyncOptionsProvider(options)];
   }
 
-  private static createAsyncOptionsProvider(
-    options: CloudinaryModuleAsyncOptions,
-  ): Provider {
+  private static createAsyncOptionsProvider(options: CloudinaryModuleAsyncOptions): Provider {
     if (options.useFactory) {
       return {
         provide: CLOUDINARY_MODULE_OPTIONS,

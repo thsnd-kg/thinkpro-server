@@ -17,8 +17,7 @@ export class ProductSeeder {
     private readonly productService: ProductService,
     private readonly productDetailService: ProductDetailService,
     private readonly brandService: BrandService,
-  ) {
-  }
+  ) {}
 
   @Command({ command: 'seed:products', describe: 'create products' })
   async seed(): Promise<any> {
@@ -26,7 +25,7 @@ export class ProductSeeder {
 
     const jsonString = fs.readFileSync(path.join(process.cwd(), 'data/product.json'), 'utf8');
     const jsonData = JSON.parse(jsonString);
-    const productPromises = jsonData.map(async (json) => {
+    const productPromises = jsonData.map(async json => {
       const product: CreateProductDto = {
         skuId: json.sku_id,
         productId: json.product_id,
@@ -36,7 +35,7 @@ export class ProductSeeder {
         image: json.image,
         name: json.name,
         brandId: json.brand.id,
-        colors: json.colors.map((color) => {
+        colors: json.colors.map(color => {
           const colorDto: CreateColorDto = {
             name: color.name,
             code: color.code,
@@ -58,20 +57,23 @@ export class ProductSeeder {
 
     console.log('Seeding product details ...');
 
-    const productDetailJson = fs.readFileSync(path.join(process.cwd(), 'data/product_details.json'), 'utf8');
+    const productDetailJson = fs.readFileSync(
+      path.join(process.cwd(), 'data/product_details.json'),
+      'utf8',
+    );
     const productDetailData = JSON.parse(productDetailJson);
-    const productDetailPromises = productDetailData.map(async (data) => {
+    const productDetailPromises = productDetailData.map(async data => {
       if (!data.SKU) return;
       const productDetail: CreateProductDetailDto = {
         SKU: data.SKU,
-        assets: data.assets.map((asset) => {
+        assets: data.assets.map(asset => {
           return {
             src: asset.src,
             type: asset.type,
           };
         }),
         variations: data.variations,
-        attributes: data.attributes.map((attribute) => {
+        attributes: data.attributes.map(attribute => {
           return {
             ...attribute.items,
             groupName: attribute.group_name,

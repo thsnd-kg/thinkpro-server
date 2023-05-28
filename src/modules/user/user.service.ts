@@ -14,8 +14,7 @@ export class UserService {
     private userModel: Model<UserDocument>,
     @Inject(BcryptConfig.KEY)
     private bcryptConfig: ConfigType<typeof BcryptConfig>,
-  ) {
-  }
+  ) {}
 
   async create(createUserDto: CreateUserDto): Promise<User> {
     const hashedPass = await bcrypt.hash(createUserDto.password, this.bcryptConfig.salt);
@@ -33,11 +32,14 @@ export class UserService {
   }
 
   async findOneByUsername(username: string): Promise<User | null> {
-    const user = await this.userModel.findOne({
-      username,
-    }, {
-      password: true,
-    });
+    const user = await this.userModel.findOne(
+      {
+        username,
+      },
+      {
+        password: true,
+      },
+    );
 
     return user;
   }
@@ -49,5 +51,4 @@ export class UserService {
 
     return !!user;
   }
-
 }

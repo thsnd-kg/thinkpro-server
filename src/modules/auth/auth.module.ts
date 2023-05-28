@@ -9,15 +9,17 @@ import { JwtRefreshStrategy, JwtStrategy } from './strategies';
 import { JwtConfig } from '../../config/jwt.config';
 
 @Module({
-  imports: [UserModule, JwtModule.registerAsync({
-    useFactory: async (jwtConfig: ConfigType<typeof JwtConfig>) => ({
-      secret: jwtConfig.secretKey,
-      signOptions: { expiresIn: jwtConfig.accessTokenLifeTime },
+  imports: [
+    UserModule,
+    JwtModule.registerAsync({
+      useFactory: async (jwtConfig: ConfigType<typeof JwtConfig>) => ({
+        secret: jwtConfig.secretKey,
+        signOptions: { expiresIn: jwtConfig.accessTokenLifeTime },
+      }),
+      inject: [JwtConfig.KEY],
     }),
-    inject: [JwtConfig.KEY],
-  })],
+  ],
   controllers: [AuthController],
   providers: [AuthService, LocalStrategy, JwtStrategy, JwtRefreshStrategy],
 })
-export class AuthModule {
-}
+export class AuthModule {}

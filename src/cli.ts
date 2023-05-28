@@ -4,14 +4,11 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.createApplicationContext(AppModule, {
-    logger: ['error'] // only errors
+    logger: ['error'], // only errors
   });
 
   try {
-    await app
-      .select(CommandModule)
-      .get(CommandService)
-      .exec();
+    await app.select(CommandModule).get(CommandService).exec();
     await app.close();
   } catch (error) {
     console.error(error);

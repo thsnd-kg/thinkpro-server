@@ -8,8 +8,7 @@ import { User } from './schemas/user.schema';
 @ApiBearerAuth('access-token')
 @Controller('users')
 export class UserController {
-  constructor(private readonly userService: UserService) {
-  }
+  constructor(private readonly userService: UserService) {}
 
   @Get()
   async findAll(): Promise<User[]> {

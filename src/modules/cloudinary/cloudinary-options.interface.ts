@@ -9,14 +9,10 @@ export interface CloudinaryModuleOptions {
 export interface CloudinaryModuleAsyncOptions {
   imports?: any[];
   useClass?: Type<CloudinaryModuleOptionsFactory>;
-  useFactory?: (
-    ...args: any[]
-  ) => Promise<CloudinaryModuleOptions> | CloudinaryModuleOptions;
+  useFactory?: (...args: any[]) => Promise<CloudinaryModuleOptions> | CloudinaryModuleOptions;
   inject?: any[];
 }
 
 export interface CloudinaryModuleOptionsFactory {
-  createCloudinaryOptions():
-    | Promise<CloudinaryModuleOptions>
-    | CloudinaryModuleOptions;
+  createCloudinaryOptions(): Promise<CloudinaryModuleOptions> | CloudinaryModuleOptions;
 }

@@ -10,42 +10,40 @@ export class CreateProductDetailDto {
   @ApiProperty()
   @IsOptional()
   assets: {
-    src: string,
-    type: string
+    src: string;
+    type: string;
   }[];
-
 
   @ApiProperty()
   @IsOptional()
   variations: {
-    label: string,
-    name: string,
+    label: string;
+    name: string;
     options: {
-      name: string,
-    }[],
+      name: string;
+    }[];
   }[];
 
   @ApiProperty()
   @IsOptional()
   productId: number;
 
-
   @ApiProperty()
   @IsOptional()
   attributes: {
     items: {
-      label: string,
-      value: string,
-      article: string,
-    }[],
-    groupName: string
+      label: string;
+      value: string;
+      article: string;
+    }[];
+    groupName: string;
   }[];
 
   @ApiProperty({})
   @IsOptional()
   article: {
-    title: string,
-    description: string,
-    content: string,
+    title: string;
+    description: string;
+    content: string;
   };
 }

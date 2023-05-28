@@ -5,7 +5,6 @@ import { Type } from 'class-transformer';
 import { CreateColorDto } from './create-color.dto';
 
 export class CreateProductDto {
-
   @IsNumber()
   @ApiProperty({ required: false, type: Number })
   skuId: number;

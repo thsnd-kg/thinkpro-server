@@ -7,17 +7,14 @@ import { BrandService } from '../brand/brand.service';
 
 @Injectable()
 export class BrandSeeder {
-  constructor(
-    private readonly brandService: BrandService,
-  ) {
-  }
+  constructor(private readonly brandService: BrandService) {}
 
   @Command({ command: 'seed:brands', describe: 'create brands' })
   async seed(): Promise<any> {
     console.log('Seeding brands ...');
     const jsonString = fs.readFileSync(path.join(process.cwd(), 'data/brand.json'), 'utf8');
     const jsonData = JSON.parse(jsonString);
-    const brands = jsonData.map((json) => {
+    const brands = jsonData.map(json => {
       const brand: CreateBrandDto = {
         id: json.id,
         description: json.description,

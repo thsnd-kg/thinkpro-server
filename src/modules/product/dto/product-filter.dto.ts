@@ -1,10 +1,9 @@
 import { ApiPropertyOptional } from '@nestjs/swagger';
-import { IsNumber, IsOptional, Max, Min, Validate, ValidateIf } from 'class-validator';
+import { IsNumber, IsOptional, Max, Min } from 'class-validator';
+import { Transform, Type } from 'class-transformer';
 import { IsLowerCaseKebabCase } from '../../../validations/is-lower-kebab-case.validation';
-import { Type } from 'class-transformer';
 
 export class ProductFilter {
-
   @Min(1)
   @IsNumber()
   @Type(() => Number)
@@ -19,7 +18,13 @@ export class ProductFilter {
   perPage: number;
 
   @IsOptional()
-  @IsLowerCaseKebabCase()
+  @Transform(({ value }) => (typeof value === 'string' ? value.split(',') : value))
+  @IsLowerCaseKebabCase({ each: true })
+  @ApiPropertyOptional({ type: String })
+  brands?: string[];
+
+  @IsOptional()
+  @IsLowerCaseKebabCase({ each: true })
   @ApiPropertyOptional({ type: String })
   category?: string;
 

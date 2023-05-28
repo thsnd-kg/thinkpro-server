@@ -32,7 +32,6 @@ import { AppService } from './app.service';
     FileModule,
     CloudinaryModule,
     ProductModule,
-
   ],
   providers: [
     {
@@ -46,5 +45,4 @@ import { AppService } from './app.service';
     AppService,
   ],
 })
-export class AppModule {
-}
+export class AppModule {}

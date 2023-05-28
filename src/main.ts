@@ -4,7 +4,6 @@ import { ConfigService } from '@nestjs/config';
 import cookieParser from 'cookie-parser';
 import { AppModule } from './app.module';
 import { configSwagger } from './config/swagger.config';
-import { JwtAuthGuard } from './modules/auth/guards';
 
 async function bootstrap(): Promise<void> {
   const app = await NestFactory.create(AppModule);
@@ -21,14 +20,17 @@ async function bootstrap(): Promise<void> {
     }),
   );
   app.use(cookieParser());
+  app.enableCors();
 
   const port = configService.get('app.port');
 
   await app.listen(port);
 }
 
-bootstrap().then(() => {
-  console.log(`Application is running on port ${process.env.PORT}`);
-}).catch((error) => {
-  console.log(error);
-});
+bootstrap()
+  .then(() => {
+    console.log(`Application is running on port ${process.env.PORT}`);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
