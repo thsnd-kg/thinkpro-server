@@ -18,6 +18,7 @@ import { ProductDetailService } from './product-detail.service';
 import { JwtAuthGuard } from '../auth/guards';
 import { Product } from './schemas/product.schema';
 import { ProductDetail } from './schemas/product-detail.schema';
+import { ProductsWithMeta } from './types/product.type';
 
 @ApiBearerAuth(API_BEARER_AUTH)
 @ApiTags('products')
@@ -48,7 +49,7 @@ export class ProductController {
   @Get()
   getProductsByFilter(
     @Query(new ValidationPipe({ transform: true })) query: ProductFilter,
-  ): Promise<Product[]> {
+  ): Promise<ProductsWithMeta> {
     return this.productService.getProductsByFilter(query);
   }
 }

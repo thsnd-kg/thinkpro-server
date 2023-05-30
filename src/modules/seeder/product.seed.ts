@@ -2,14 +2,13 @@ import * as fs from 'fs';
 import { Injectable } from '@nestjs/common';
 import { Command } from 'nestjs-command';
 import * as path from 'path';
+import process from 'process';
 import { CreateProductDto } from '../product/dto/create-product.dto';
 import { CreateColorDto } from '../product/dto/create-color.dto';
 import { ProductService } from '../product/product.service';
 import { BrandService } from '../brand/brand.service';
-import { CreateBrandDto } from '../brand/dto/create-brand.dto';
 import { ProductDetailService } from '../product/product-detail.service';
 import { CreateProductDetailDto } from '../product/dto/create-product-detail.dto';
-import process from 'process';
 
 @Injectable()
 export class ProductSeeder {
@@ -25,7 +24,7 @@ export class ProductSeeder {
 
     const jsonString = fs.readFileSync(path.join(process.cwd(), 'data/product.json'), 'utf8');
     const jsonData = JSON.parse(jsonString);
-    const productPromises = jsonData.map(async json => {
+    const productPromises = jsonData.map(async (json) => {
       const product: CreateProductDto = {
         skuId: json.sku_id,
         productId: json.product_id,
@@ -35,7 +34,7 @@ export class ProductSeeder {
         image: json.image,
         name: json.name,
         brandId: json.brand.id,
-        colors: json.colors.map(color => {
+        colors: json.colors.map((color) => {
           const colorDto: CreateColorDto = {
             name: color.name,
             code: color.code,
@@ -62,20 +61,20 @@ export class ProductSeeder {
       'utf8',
     );
     const productDetailData = JSON.parse(productDetailJson);
-    const productDetailPromises = productDetailData.map(async data => {
+    const productDetailPromises = productDetailData.map(async (data) => {
       if (!data.SKU) return;
       const productDetail: CreateProductDetailDto = {
         SKU: data.SKU,
-        assets: data.assets.map(asset => {
+        assets: data.assets.map((asset) => {
           return {
             src: asset.src,
             type: asset.type,
           };
         }),
         variations: data.variations,
-        attributes: data.attributes.map(attribute => {
+        attributes: data.attributes.map((attribute) => {
           return {
-            ...attribute.items,
+            ...attribute,
             groupName: attribute.group_name,
           };
         }),

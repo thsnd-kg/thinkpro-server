@@ -7,6 +7,7 @@ import { BrandService } from '../brand/brand.service';
 import { ProductFilter } from './dto/product-filter.dto';
 import { ProductQuery } from './interfaces/product-query.interface';
 import { CategoryService } from '../category/category.service';
+import { ProductsWithMeta } from './types/product.type';
 
 @Injectable()
 export class ProductService {
@@ -30,7 +31,7 @@ export class ProductService {
     return this.productModel.deleteMany({});
   }
 
-  async getProductsByFilter(filter: ProductFilter): Promise<Product[]> {
+  async getProductsByFilter(filter: ProductFilter): Promise<ProductsWithMeta> {
     const { brands, category, minPrice, maxPrice, currentPage, perPage } = filter;
     const query: ProductQuery = {};
 
@@ -54,12 +55,23 @@ export class ProductService {
       query.price = { ...query.price, $lte: maxPrice };
     }
 
-    const products = await this.productModel
+    const products: Product[] = await this.productModel
       .find(query)
       .skip((currentPage - 1) * perPage)
       .limit(perPage)
       .exec();
 
-    return products;
+    const totalItems = await this.productModel.countDocuments(query);
+    const meta = {
+      total: totalItems,
+      currentPage,
+      perPage,
+      lastPage: Math.ceil(totalItems / perPage),
+    };
+
+    return {
+      products,
+      meta,
+    };
   }
 }
