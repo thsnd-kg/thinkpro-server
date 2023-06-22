@@ -44,6 +44,19 @@ BCRYPT_SALT_ROUNDS=12
 
 ## Using Docker Compose
 
+```dotenv
+# .env.docker
+## Setup App
+PORT=3000
+
+## Setup MongoDB
+MONGODB_VERSION=latest
+MONGODB_ROOT_USERNAME=admin
+MONGODB_ROOT_PASSWORD=admin
+MONGODB_ROOT_PORT=27017
+MONGODB_ROOT_DATABASE=thinkpro
+```
+
 ```bash
 $ docker-compose --env-file=.env.docker up -d 
 ```
